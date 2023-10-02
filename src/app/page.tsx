@@ -1,13 +1,17 @@
 import { About } from "./components/About/page";
 import Header from "./components/Header/page";
+import Projects from "./components/Projects/pages";
+
 import styles from "./page.module.css"
-export default function Home() {
+
+export default async function Home() {
   return (
     <>
       <Header />
       <main className={styles.mainClass}>
         <div data-aos="zoom-in" data-aos-duration="500">
           <About />
+          <Projects />
         </div>
       </main>
     </>
