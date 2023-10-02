@@ -1,14 +1,18 @@
+import { About } from "./components/About/page";
 import Header from "./components/Header/page";
-
+import styles from "./page.module.css"
 export default function Home() {
   return (
     <>
       <Header />
+      <main className={styles.mainClass}>
+        <div data-aos="zoom-in" data-aos-duration="500">
+          <About />
+        </div>
+      </main>
     </>
   )
 }
-
-
 
 
 // import Image from 'next/image'
