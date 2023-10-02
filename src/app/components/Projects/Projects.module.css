@@ -1,0 +1,29 @@
+.board {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardSection {
+  display: flex;
+  width: 75%;
+}
+
+.cardSection li {
+  background-color: #eeedff;
+  max-width: 60%;
+  margin: 1em;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.cardSection li strong {
+font-size: 2em;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
