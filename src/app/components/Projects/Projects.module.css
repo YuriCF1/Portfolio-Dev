@@ -14,7 +14,7 @@
 }
 
 .cardSection ul {
-  background: linear-gradient(#d3dbf8, #767676);
+  background: linear-gradient(#fcfcff, #534d58);
   /* max-width: 25%; */
   max-width: 28%;
   margin: 1em;
@@ -22,7 +22,7 @@
   border-radius: 15px;
   padding: 20px;
   list-style-type: none;
-  box-shadow: 2px 5px 10px #888888
+  box-shadow: 2px 5px 10px #534d58
 }
 
 .cardSection li {
