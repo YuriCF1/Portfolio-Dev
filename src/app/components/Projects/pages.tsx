@@ -5,9 +5,9 @@ import Image from "next/image"
 interface Project {
   title: string;
   description: string;
-  img?: string;
-  altImg?: string;
-  techs?: string[];
+  img: string;
+  altImg: string;
+  techs: string[];
   techDescriptions?: string[];
   linkGH: string;
   linkDeploy: string
@@ -21,14 +21,17 @@ export default function Projects() {
       </div>
       <div className={styles.cardSection}>
         {projects.projects.map((project: Project, index: number) => (
-          <ul>
+          <ul className={styles.title}>
             <li>
               <strong className={styles.cardTitle}>Título:</strong> <p>{project.title}</p>
             </li>
             <li>
               <strong>Descrição:</strong> <p>{project.description} </p>
             </li>
-            {project.img && <Image src={project.img} alt={project.altImg ? project.altImg : 'Foto exemplo do projeto'} width={300} height={168.75} className={styles.exampleImg} />}
+            {project.img && <Image src={project.img} alt={project.altImg} width={380} height={213.76} className={styles.exampleImg} />}
+            {/* <div className={styles.divEx}> */}
+              {/* {project.img && <Image src={project.img} alt={project.altImg} fill />} */}
+            {/* </div> */}
             <li className={styles.techsContainer}>
               <strong>Tecnologias:</strong>
               <div>
@@ -40,10 +43,10 @@ export default function Projects() {
             </li>
             <li className={styles.techsContainer}>
               <strong>Deploys:</strong>
-              <a href={project.linkGH}>
+              <a href={project.linkGH} target="_blank">
                 <Image src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' alt="Ícone do GitHub" width={25} height={25} className={styles.techs} />
               </a>
-              <a href={project.linkGH}>
+              <a href={project.linkDeploy} target="_blank">
                 <Image src='/img/svg-internet.svg' alt="Ícone do GitHub" width={25} height={25} className={styles.techs} />
               </a>
             </li>
