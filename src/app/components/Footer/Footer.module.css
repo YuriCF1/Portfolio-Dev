@@ -1,0 +1,47 @@
+/*______________________________________________Rodape______________________ */
+.rodape_container {
+	background-color: #262429;
+	padding: 2rem 2rem; 
+    color: #f5ecfb;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: inset 0 0 12rem #403f41;
+}
+
+.rodape_conteudo {
+	align-self: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.rodape_lista {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.rodape_lista > li {
+	margin: 1rem 1rem;
+
+}
+
+.logo_yc{
+	height: 10vh;
+
+}
+
+
+.logo_git {
+	height: 8vh;
+
+}
+
+.copyright {
+	margin: 1rem;
+
+}
+
+
