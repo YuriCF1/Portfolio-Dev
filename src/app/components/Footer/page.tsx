@@ -13,7 +13,7 @@ export function Footer() {
                     <li><a href="https://github.com/YuriCF1" target="_blank" rel="noopener
 								noreferrer"><img className={styles.logo_git}
                             src="assets/img/github.png" alt="Perfil no GitHub" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/yf19/" target="_blank"
+                    <li><a href="https://www.linkedin.com/in/yuricf/" target="_blank"
                         rel="noopener noreferrer"><img
                             className={styles.logo_git} src="assets/img/linkedin.png" alt="Perfil no GitHub" /></a></li>
                 </ul>
