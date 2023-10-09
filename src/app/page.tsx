@@ -1,4 +1,5 @@
 import { About } from "./components/About/page";
+import Email from "./components/Email/page";
 import Header from "./components/Header/page";
 import Projects from "./components/Projects/pages";
 
@@ -12,6 +13,7 @@ export default async function Home() {
         <div data-aos="zoom-in" data-aos-duration="500">
           <About />
           <Projects />
+          <Email />
         </div>
       </main>
     </>
