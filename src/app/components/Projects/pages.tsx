@@ -15,7 +15,7 @@ interface Project {
 
 export default function Projects() {
   return (
-    <section className={styles.board}>
+    <section className={styles.board} id="projetos">
       <div className={styles.profileImgContainer}>
         <Image src='https://github.com/YuriCF1.png' alt="Foto de Perfil Yuri Cruz" width={300} height={300} className={styles.profileImg} />
         <ul>
@@ -44,7 +44,7 @@ export default function Projects() {
       </div>
       <div className={styles.cardSection}>
         {projects.projects.map((project: Project, index: number) => (
-          <ul className={styles.title}>
+          <ul className={styles.title} key={project.title}>
             <li>
               <strong className={styles.cardTitle}>Título:</strong> <p>{project.title}</p>
             </li>
@@ -60,7 +60,7 @@ export default function Projects() {
               <div>
                 {project.techs &&
                   project.techs.map((tech) => (
-                    <img src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
+                    <img key={project.techDescriptions![index]} src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
                   ))}
               </div>
             </li>
