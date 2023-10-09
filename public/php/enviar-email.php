@@ -31,5 +31,6 @@ date_default_timezone_set('America/Sao_Paulo');
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
+  echo "<meta http-equiv='refresh' content='10;URL=../'>";
+  // echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
 ?>
