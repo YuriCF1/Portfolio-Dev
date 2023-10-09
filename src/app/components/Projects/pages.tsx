@@ -16,8 +16,31 @@ interface Project {
 export default function Projects() {
   return (
     <section className={styles.board}>
-      <div>
+      <div className={styles.profileImgContainer}>
         <Image src='https://github.com/YuriCF1.png' alt="Foto de Perfil Yuri Cruz" width={300} height={300} className={styles.profileImg} />
+        <ul>
+          <li><a href="https://www.linkedin.com/in/yuricf/" target="_blank">
+            <img src="/img/icons/linkedin.svg" alt="Ícone Linkedin" />
+            <p>Yuri Cruz</p>
+          </a></li>
+          <li><a href="https://github.com/YuriCF1" target="_blank">
+            <img src="/img/icons/github.svg" alt="Ícone GitHub" />
+            <p>YuriCF1</p>
+          </a></li>
+          <li><a href="mailto:exemplo@dominio.com" target="_blank">
+            <img src="/img/icons/email.svg" alt="Ícone GitHub" />
+            <p>yurifdev</p>
+          </a></li>
+          <li><a href="https://wa.me/5582988439390?text=Olá,%20Yuri!" target="_blank">
+            <img src="/img/icons/wpp.svg" alt="Ícone Whatsapp" />
+            <p>Yuri Cruz</p>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/yuricf/" target="_blank">
+            <img src="/img/icons/telephone.svg" alt="Ícone Telefone" />
+            <p>Yuri Cruz</p>
+          </a></li>
+        </ul>
+        <p>Frontend dev. HTML/CSS/JS/TS/React/MongoDB/Firebase. User of design Figma, Blender, Photoshop and Premiere.</p>
       </div>
       <div className={styles.cardSection}>
         {projects.projects.map((project: Project, index: number) => (
@@ -30,7 +53,7 @@ export default function Projects() {
             </li>
             {project.img && <Image src={project.img} alt={project.altImg} width={380} height={213.76} className={styles.exampleImg} />}
             {/* <div className={styles.divEx}> */}
-              {/* {project.img && <Image src={project.img} alt={project.altImg} fill />} */}
+            {/* {project.img && <Image src={project.img} alt={project.altImg} fill />} */}
             {/* </div> */}
             <li className={styles.techsContainer}>
               <strong>Tecnologias:</strong>
