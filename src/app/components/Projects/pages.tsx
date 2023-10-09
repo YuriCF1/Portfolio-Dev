@@ -51,7 +51,7 @@ export default function Projects() {
             <li>
               <strong>Descrição:</strong> <p>{project.description} </p>
             </li>
-            {project.img && <Image src={project.img} alt={project.altImg} width={360} height={202.51} className={styles.exampleImg} />}
+            {project.img && <Image src={project.img} alt={project.altImg} width={320} height={180.01} className={styles.exampleImg} />}
             {/* <div className={styles.divEx}> */}
             {/* {project.img && <Image src={project.img} alt={project.altImg} fill />} */}
             {/* </div> */}
