@@ -1,0 +1,89 @@
+.contato {
+  margin-top: 100px;
+}
+
+.contato_container {
+  width: 80vw;
+  color: #f5ecfb;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.contato_texto {
+  font-size: 1.5rem;
+  margin: 2rem auto;
+}
+
+.enviar {
+  cursor: pointer;
+  display: block;
+  width: 10%;
+}
+
+.contato_texto__inputs {
+  color: #f5ecfb;
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  padding: 0.45rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-right: 2.2rem;
+  background-color: #363535;
+}
+
+.enviar {
+  color: #f5ecfb;
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  align-items: center;
+  background-color: #353536;
+}
+.mensagem {
+  margin: 2.5rem 0 0.5rem 0;
+  display: block;
+} 
+
+.emailMessage {
+  width: 80%;
+  height: 20vh;
+}
+
+.callToAction {
+  margin: 2rem auto;
+  margin-top: 4rem;
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .contato_texto__inputs {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .mensagem {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  .enviar {
+    width: 33.33vw;
+
+    .emailMessage {
+      width: 80vw;
+      margin: 0 auto;
+      align-items: center;
+    }
+  }
+}
