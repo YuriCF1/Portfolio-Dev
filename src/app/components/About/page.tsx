@@ -8,10 +8,9 @@ export function About() {
                 <h2 className={styles.sobre_titulo}>Quem sou eu</h2>
                 <div className={styles.versaoPC}>
                     <p className={`${styles.sobre_texto} ${styles.typing_animation}`} id="servicos">Olá! Me chamo Yuri.
-                        Sou Freelancer
-                        trabalhando em
-                        Web-Design,
-                        edição de vídeo e fotografias. E amo tudo isso {`=)`}
+                        Sou Desenvolvedor frontend
+                        com conhecimento em backend,
+                        e pretendo ser um exímio fullstack developer. E amo tudo isso {`=)`}
                     </p>
                 </div>
                 <div className={styles.versaoMob}>
