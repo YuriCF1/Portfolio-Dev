@@ -30,7 +30,7 @@ export function Email() {
                         {/* placeholder="Seu número" onkeypress="maascaraDeTelefone(this)"/> */}
 
                         <label className={styles.mensagem} htmlFor="mensagem">Mensagem:</label>
-                        <textarea className={`${styles.contato_texto__inputs} ${styles.emailMessage}`} id="mensagem" maxLength={1000}
+                        <textarea className={`${styles.contato_texto__inputs} ${styles.emailMessage}`} name="maessage" id="mensagem" maxLength={1000}
                             placeholder="Escreva aqui o que desejas" required ></textarea>
                         <input type="hidden" name="_next" value="https://portfolio-dev-kappa-liart.vercel.app/thankyou"></input>
                         <input type="submit" className={`${styles.enviar} ${styles.submit}`} value="Enviar" name="submit"
