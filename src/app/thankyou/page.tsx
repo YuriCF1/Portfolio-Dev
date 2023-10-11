@@ -6,7 +6,7 @@ import Link from "next/link"
 
 import styles from "./ThankYou.module.css"
 
-export function ThankYou() {
+const ThankYou = () => {
     const [count, setCount] = useState(10);
 
     useEffect(() => {
