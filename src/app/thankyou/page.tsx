@@ -6,7 +6,7 @@ import Link from "next/link"
 
 import styles from "./ThankYou.module.css"
 
-export function obrigado() {
+export function ThankYou() {
     const [count, setCount] = useState(10);
 
     useEffect(() => {
@@ -15,8 +15,6 @@ export function obrigado() {
                 setCount(count - 1);
             } else {
                 clearInterval(interval);
-                // Redirecionar para a página desejada após a contagem regressiva
-                // Substitua 'caminho-da-pagina-b' pela URL real da página B
                 window.location.href = '/';
             }
         }, 1000);
@@ -40,4 +38,4 @@ export function obrigado() {
     )
 }
 
-export default obrigado
+export default ThankYou
