@@ -27,7 +27,7 @@ export default function Projects() {
             <img src="/img/icons/github.svg" alt="Ícone GitHub" />
             <p>YuriCF1</p>
           </a></li>
-          <li><a href="mailto:exemplo@dominio.com" target="_blank">
+          <li><a href="mailto:yurifdev@gmail.com" target="_blank">
             <img src="/img/icons/email.svg" alt="Ícone GitHub" />
             <p>yurifdev</p>
           </a></li>
