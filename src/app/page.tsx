@@ -12,12 +12,12 @@ export default async function Home() {
     <>
       <Header />
       <main className={styles.mainClass}>
-        <div data-aos="zoom-in" data-aos-duration="500">
+        <div>
           <About />
           <Projects />
           <Email />
           <Footer />
-        <ButtonTop />
+          <ButtonTop />
         </div>
       </main>
     </>
