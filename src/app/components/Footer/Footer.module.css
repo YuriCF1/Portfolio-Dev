@@ -28,8 +28,13 @@
   height: 10vh;
 }
 
-.logo_git {
+.logo_social {
   height: 8vh;
+}
+
+.logo_social:hover {
+  scale: 1.1;
+  transition: .2s;
 }
 
 .copyright {
