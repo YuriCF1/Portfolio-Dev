@@ -9,7 +9,6 @@ export function Email() {
                         Posso ajudar em algo, ou tens alguma dúvida? Me manda uma mensagem!
                     </p>
                 </section>
-                {/* <form action="/php/enviar-email.php" method="POST" */}
                 <form action="https://formsubmit.co/yurifdev@gmail.com" method="POST"
                     className={styles.contato_container}>
                     <h4 id="contato">Contato</h4>
@@ -33,7 +32,7 @@ export function Email() {
                         <label className={styles.mensagem} htmlFor="mensagem">Mensagem:</label>
                         <textarea className={`${styles.contato_texto__inputs} ${styles.emailMessage}`} id="mensagem" maxLength={1000}
                             placeholder="Escreva aqui o que desejas" required ></textarea>
-                        <input type="hidden" name="_next" value="https://portfolio-dev-kappa-liart.vercel.app/"></input>
+                        <input type="hidden" name="_next" value="https://portfolio-dev-kappa-liart.vercel.app/thankyou"></input>
                         <input type="submit" className={`${styles.enviar} ${styles.submit}`} value="Enviar" name="submit"
                         />
                     </div>
