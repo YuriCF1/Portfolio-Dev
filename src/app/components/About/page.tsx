@@ -14,11 +14,10 @@ export function About() {
                     </p>
                 </div>
                 <div className={styles.versaoMob}>
-                    <p className={`${styles.sobre_texto2} ${styles.typing_animation1}`} id="servicos">Olá! Me chamo
-                        Yuri. Sou Freelancer</p>
-                    <p className={`${styles.sobre_texto3} ${styles.typing_animation2}`}>trabalhando em
-                        Web-Design,</p>
-                    <p className={`${styles.sobre_texto3} ${styles.typing_animation3}`}>edição de vídeo e fotografias.</p >
+                    <p className={`${styles.sobre_texto2} ${styles.typing_animation1}`} id="servicos">Olá! Me chamo Yuri.
+                        Sou Desenvolvedor frontend</p>
+                    <p className={`${styles.sobre_texto3} ${styles.typing_animation2}`}>com conhecimento em backend, e pretendo</p>
+                    <p className={`${styles.sobre_texto3} ${styles.typing_animation3}`}> ser um exímio fullstack developer.</p >
                     <p className={`${styles.sobre_texto3} ${styles.typing_animation4}`}> E amo tudo isso =)
                     </p >
                 </div >
