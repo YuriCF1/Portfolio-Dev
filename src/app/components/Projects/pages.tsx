@@ -15,7 +15,9 @@ interface Project {
 
 export default function Projects() {
   return (
-    <section className={styles.board} id="projetos">
+    <section className={styles.board} id="projetos" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
       <div className={styles.profileImgContainer}>
         <Image src='https://github.com/YuriCF1.png' alt="Foto de Perfil Yuri Cruz" width={300} height={300} className={styles.profileImg} />
         <ul>
