@@ -1,5 +1,5 @@
-.notFound h1{
-    font-size: 10em;
+.notFound h1 {
+  font-size: 10em;
 }
 .notFound {
   background: linear-gradient(#0e0b16, #262429);
@@ -15,9 +15,6 @@
   width: 70%;
 }
 
-.notFound span {
-  /* display: block; */
-}
 .notFound span:nth-child(1) {
   font-size: 8em;
 }
@@ -37,11 +34,11 @@
 }
 
 .link {
-    color: #d0d0d0;
-    text-decoration: underline;
+  color: #d0d0d0;
+  text-decoration: underline;
 }
 
 .link:hover {
-    transition: .5s;
-    color: #9e97b1;
+  transition: 0.5s;
+  color: #9e97b1;
 }
