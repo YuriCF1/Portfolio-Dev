@@ -1,0 +1,39 @@
+.thanks {
+  background: linear-gradient(#0e0b16, #262429);
+}
+.thanks > div {
+  margin: 0 auto;
+  color: #cdcdcd;
+  height: 70vh;
+  display: flex;
+  padding-top: 15vh;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.thanks span {
+  display: block;
+}
+.thanks span:nth-child(1) {
+  font-size: 8em;
+}
+
+.thanks span:nth-child(2) {
+  font-size: 3em;
+}
+
+.thanks pre {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+.thanks p {
+  font-size: 1.25em;
+  margin: 2em;
+}
+
+.link {
+  color: #d0d0d0;
+  text-decoration: underline;
+}
