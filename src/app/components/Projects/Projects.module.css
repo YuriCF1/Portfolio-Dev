@@ -16,6 +16,13 @@
   max-width: 300px;
 }
 
+.divProfImage {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 1.3em;
+}
+
 .profileImgContainer ul {
   text-decoration: none;
   display: flex;
@@ -38,10 +45,10 @@
   margin-bottom: 5px;
 }
 
-.profileImgContainer ul a{
+.profileImgContainer ul a {
   color: black;
 }
-.profileImgContainer > p{
+.profileImgContainer > p {
   font-weight: bold;
   word-wrap: break-word;
   background-color: #aaaaaa;
@@ -54,7 +61,6 @@
   margin-bottom: 1em;
   box-shadow: 2px 5px 10px #534d58;
 }
-
 
 /* _____________________________________________________CARDS_____________________________________________________ */
 .cardSection {
@@ -97,12 +103,19 @@ ul.title li:nth-child(2) {
   font-size: 1.2em;
 }
 
+.divImage {
+  margin: 0 auto;
+  position: relative;
+  width: 355px;
+  height: 199.7px;
+}
+
 .exampleImg {
   border-radius: 20px;
   margin: 0 auto;
   display: block;
-  width: 185.63;
-  height: 200;
+  /* width: 185.63; */
+  /* height: 200; */
   /* width={300} height={168.75} */
 }
 
@@ -121,4 +134,150 @@ ul.title li:nth-child(2) {
 .divEx {
   width: 500px;
   height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .board {
+    /* max-width: 90%; */
+    /* margin: 0 auto; */
+    /* display: flex; */
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .profileImgContainer {
+    /* background: linear-gradient(#909090, #fcfcff); */
+    /* border-radius: 15px; */
+    /* padding: 15px; */
+    /* list-style-type: none; */
+    /* box-shadow: 2px 5px 10px #534d58; */
+    /* height: 600px; */
+    margin: 0em;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .divProfImage {
+    position: relative;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1.3em;
+  }
+
+  /* .profileImgContainer ul {
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+  } */
+
+  /* .profileImgContainer li {
+    flex: 0 0 calc(33.33% - 10px);
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+   */
+  /* .profileImgContainer li img {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 5px;
+  }
+  
+  .profileImgContainer ul a{
+    color: black;
+  }
+  .profileImgContainer > p{
+    font-weight: bold;
+    word-wrap: break-word;
+    background-color: #aaaaaa;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .profileImg {
+    border-radius: 50%;
+    margin-bottom: 1em;
+    box-shadow: 2px 5px 10px #534d58;
+  }
+   */
+
+  /* _____________________________________________________CARDS_____________________________________________________ */
+  .cardSection {
+    /* margin: 1em; */
+    display: flex;
+    /* max-width: 100%; */
+    width: 90%;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+
+  .cardSection ul {
+    /* background: linear-gradient(#fcfcff, #909090); */
+    max-width: 100%;
+    width: 90%;
+    margin: 1.2em;
+    /* justify-content: space-around; */
+    /* border-radius: 15px; */
+    /* padding: 15px; */
+    /* list-style-type: none; */
+    /* box-shadow: 2px 5px 10px #534d58; */
+  }
+
+  /* ul.title li:nth-child(1) {
+    height: 20px;
+  } */
+
+  ul.title li:nth-child(2) {
+    /* height: 80px; */
+    margin-top: 1em;
+  }
+
+  .cardSection li {
+    margin: 0.5em 0;
+  }
+  .cardSection strong {
+    display: inline;
+    font-size: 1.3em;
+  }
+  .cardSection li p {
+    display: inline;
+    font-size: 1.2em;
+  }
+
+  .divImage {
+    /* position: relative; */
+    max-height: 50vw;
+    max-width: 28.3vh;
+    margin-top: 2em;
+  }
+
+  /* .exampleImg {
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 100 !important;
+    height: 200 !important;
+  }
+  
+  .techsContainer {
+    align-items: center;
+    display: flex;
+  }
+  
+  .techs {
+    border-radius: 10px;
+    margin: 0.3em;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .divEx {
+    width: 500px;
+    height: 200px;
+  } */
 }
