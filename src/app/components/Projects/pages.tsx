@@ -19,7 +19,9 @@ export default function Projects() {
       data-aos-easing="linear"
       data-aos-duration="1500">
       <div className={styles.profileImgContainer}>
-        <Image src='https://github.com/YuriCF1.png' alt="Foto de Perfil Yuri Cruz" width={300} height={300} className={styles.profileImg} />
+        <div className={styles.divProfImage}>
+          <Image src='https://github.com/YuriCF1.png' objectFit="cover" layout="fill" alt="Foto de Perfil Yuri Cruz" className={styles.profileImg} />
+        </div>
         <ul>
           <li><a href="https://www.linkedin.com/in/yuricf/" target="_blank">
             <img src="/img/icons/linkedin.svg" alt="Ícone Linkedin" />
@@ -53,15 +55,14 @@ export default function Projects() {
             <li>
               <strong>Descrição:</strong> <p>{project.description} </p>
             </li>
-            {project.img && <Image src={project.img} alt={project.altImg} width={320} height={180.01} className={styles.exampleImg} />}
-            {/* <div className={styles.divEx}> */}
-            {/* {project.img && <Image src={project.img} alt={project.altImg} fill />} */}
-            {/* </div> */}
+            {/* Tem que fazer isso para que o tamanho da imagem abaixo consiga ser modificada pelo css */}
+            <div className={styles.divImage} >
+              <Image src={project.img} alt={project.altImg} objectFit="cover" layout="fill" className={styles.exampleImg} />
+            </div>
             <li className={styles.techsContainer}>
               <strong>Tecnologias:</strong>
               <div>
-                {project.techs &&
-                  project.techs.map((tech) => (
+                {project.techs.map((tech) => (
                     <img key={project.techDescriptions![index]} src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
                   ))}
               </div>
