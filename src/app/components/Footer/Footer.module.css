@@ -34,9 +34,19 @@
 
 .logo_social:hover {
   scale: 1.1;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .copyright {
   margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .logo_yc {
+    height: 7vh;
+  }
+
+  .logo_social {
+    height: 5vh;
+  }
 }
