@@ -6,7 +6,7 @@ export function ButtonTop() {
     return (
         <>
             <a href="#home">
-                <Image src="/img/icons/arrow.svg" title="Logo da escritório" alt="Ícone de seta para cima" width={50} height={50} priority={true} className={styles.arrow}/>
+                <Image src="/img/icons/arrow.svg" title="Logo da escritório" alt="Ícone de seta para cima" width={50} height={50} priority={true} className={styles.arrow} />
             </a>
         </>
     )
