@@ -53,16 +53,15 @@
     width: 50%;
     text-align: center;
   }
-  
+
   /* .thanks span {
     display: block;
   } */
   .thanks span:nth-child(1) {
     font-size: 5em;
   }
-  
+
   .thanks span:nth-child(2) {
     font-size: 1.6em;
   }
-  
 }
