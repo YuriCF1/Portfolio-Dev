@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "title": "Mural de pensamentos",
+      "description": "Projeto de um mural, feito para treinar habilidades em Angular usando um sistema CRUD.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular/a0dde00a132168989c0bb934fee935f9580b29f2/memoteca/src/assets/imagens/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Mural",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone JavaScript",
+        "Ícone React",
+        "Ícone NodeJs",
+        "Ícone MongoDB"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular",
+      "linkDeploy": "https://proj-study-angular-yuricf1.vercel.app/list-thought"
+    },
+    {
       "title": "ReactGran",
       "description": "Projeto de uma calculadora, feito para treinar habilidades em typescript e gerencimento de valores.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-12/main/Readme%20Example.png",
