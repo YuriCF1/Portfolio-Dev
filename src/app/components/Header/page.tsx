@@ -15,6 +15,7 @@ export function Header() {
             <li className={styles.listItem}><a className={styles.cabecalho_itens} href="#home">Home</a></li>
             <li className={styles.listItem}><a className={styles.cabecalho_itens} href="#projetos">Projetos</a> </li>
             <li className={styles.listItem}><a className={styles.cabecalho_itens} href="#contato">Contato</a></li>
+            <li className={styles.listItem}><a className={styles.cabecalho_itens} href="#cursos">Cursos</a></li>
           </ul>
         </nav>
       </div>
