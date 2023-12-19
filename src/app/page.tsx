@@ -4,6 +4,7 @@ import Email from "./components/Email/page";
 import Footer from "./components/Footer/page";
 import Header from "./components/Header/page";
 import Projects from "./components/Projects/pages";
+import Courses from "./components/courses/page";
 
 import styles from "./page.module.css"
 
@@ -15,6 +16,7 @@ export default async function Home() {
         <div>
           <About />
           <Projects />
+          <Courses  />
           <Email />
           <Footer />
           <ButtonTop />
