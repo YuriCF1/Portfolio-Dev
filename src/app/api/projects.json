@@ -15,12 +15,32 @@
         "Ícone HTML5",
         "Ícone CSS3",
         "Ícone JavaScript",
-        "Ícone React",
-        "Ícone NodeJs",
-        "Ícone MongoDB"
+        "Ícone Typescript",
+        "Ícone Angular"
       ],
       "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular",
       "linkDeploy": "https://proj-study-angular-yuricf1.vercel.app/list-thought"
+    },
+    {
+      "title": "Formulário livraria",
+      "description": "Projeto simulando um formulário e suas validações, também fazendo integração com API e tratando o dados da requisição.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular-Form-Validation/0962addf627daf19ed5e3056f4b920215af095bf/forms-angular-main/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Livraria",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone JavaScript",
+        "Ícone Typescript",
+        "Ícone Angular"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Form-Validation",
+      "linkDeploy": "https://proj-study-angular-form-validation-yuricf1.vercel.app/cadastro"
     },
     {
       "title": "ReactGran",
