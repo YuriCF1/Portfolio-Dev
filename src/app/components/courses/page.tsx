@@ -8,15 +8,24 @@ interface Course {
 
 const Courses = () => {
     return (
-        <div>
-            {
-                course.courses.map((course: Course, index: number) => (
-                    <div>
-                        <p key={index}>{course.title}</p>
+        <>
+            <div data-aos="fade-down" data-aos-duration="5000" id="cursos">
+                <h2 className={styles.titulo}>Cursos realizados</h2>
+                <div className={styles.container}>
+                    <div className={styles.columnWrapper}>
+                        <ul>
+                            {
+                                course.courses.map((course: Course, index: number) => (
+                                    <>
+                                        <li key={index}>{course.title}</li>
+                                    </>
+                                ))
+                            }
+                        </ul>
                     </div>
-                ))
-            }
-        </div>
+                </div>
+            </div>
+        </>
     )
 }
 
