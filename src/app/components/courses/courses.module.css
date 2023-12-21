@@ -2,13 +2,10 @@
   color: #fdfdfd;
   margin: 2em 10vw;
   max-width: 80%;
-  /* padding: 10px; */
   column-count: 2;
-  /* text-align: center; */
 }
 .columnWrapper {
-  column-gap: 50px; /* Espaço entre as colunas */
-  /* margin-top: 5rem; */
+  column-gap: 200px;
 }
 .titulo {
   color: #fdfdfd;
@@ -22,7 +19,7 @@
 }
 
 .container div ul li {
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.6em;
   text-shadow: 1px 1px 1px #707070, -1px 1px 1px #707070, -1px -1px 0 #707070,
     1px -1px 0 #707070;
