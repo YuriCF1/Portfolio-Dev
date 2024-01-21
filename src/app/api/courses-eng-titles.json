@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "React: criando um Design System com TailwindCSS",
+      "eng-title": "React: creating a Design System with TailwindCSS"
+    },
+    {
       "title": "Angular: formulários orientados a templates",
       "eng-title": "Angular: template-driven forms"
     },
