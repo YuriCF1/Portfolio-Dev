@@ -1,5 +1,6 @@
 {
   "projects": [
+    { "title": "React: criando um Design System com TailwindCSS" },
     { "title": "Angular: formulários orientados a templates" },
     { "title": "Angular 14: evoluindo a aplicação" },
     { "title": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD" },
