@@ -1,5 +1,6 @@
 {
   "projects": [
+    { "title": "Angular: ciclo de vida"},
     { "title": "React: criando um Design System com TailwindCSS"},
     { "title": "Angular: formulários orientados a templates" },
     { "title": "Angular 14: evoluindo a aplicação" },

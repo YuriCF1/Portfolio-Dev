@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Angular: ciclo de vida",
+      "eng-title": "Angular: Life's Cycle"
+    },
+    {
       "title": "React: criando um Design System com TailwindCSS",
       "eng-title": "React: creating a Design System with TailwindCSS"
     },
