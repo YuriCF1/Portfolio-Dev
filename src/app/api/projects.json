@@ -44,16 +44,17 @@
     },
     {
       "title": "ReactGran",
-      "description": "Projeto de uma calculadora, feito para treinar habilidades em typescript e gerencimento de valores.",
+      "description": "Projeto simulando o Instagram, utilizando React, NodeJS, MongoDB e Postman. Nele, você pode criar contas protegidas com criptografia.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-12/main/Readme%20Example.png",
-      "altImg": "Imagem de exemplo de Projeto Reactgram",
+      "altImg": "Imagem de exemplo de Projeto ReactGran",
       "techs": [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
       ],
       "techDescriptions": [
         "Ícone HTML5",
