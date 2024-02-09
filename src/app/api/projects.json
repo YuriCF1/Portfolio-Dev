@@ -21,6 +21,27 @@
       "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular",
       "linkDeploy": "https://proj-study-angular-yuricf1.vercel.app/list-thought"
     },
+        {
+      "title": "To Do List - Angular Life Cycle",
+      "description": "Projeto de uma To Do List para estudar os métodos OnDestroy e OnCheck. Analisando os ciclos de vida dos componentes angular.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-ComponentLife/39b0a6a7f0cd6d94817a4f199e4e1b908bf7f58a/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de To Do List",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone JavaScript",
+        "Ícone Typescript",
+        "Ícone Angular"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-ComponentLife?tab=readme-ov-file",
+      "linkDeploy": "https://proj-study-component-life.vercel.app/"
+    },
     {
       "title": "Formulário livraria",
       "description": "Projeto simulando um formulário e suas validações, também fazendo integração com API e tratando o dados da requisição.",
