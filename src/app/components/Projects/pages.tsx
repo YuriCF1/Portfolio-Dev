@@ -57,14 +57,16 @@ export default function Projects() {
             </li>
             {/* Tem que fazer isso para que o tamanho da imagem abaixo consiga ser modificada pelo css */}
             <div className={styles.divImage} >
-              <Image src={project.img} alt={project.altImg} objectFit="cover" layout="fill" className={styles.exampleImg} />
+              <a href={project.linkDeploy} >
+                <Image src={project.img} alt={project.altImg} objectFit="cover" layout="fill" className={styles.exampleImg} />
+              </a>
             </div>
             <li className={styles.techsContainer}>
               <strong>Tecnologias:</strong>
               <div>
                 {project.techs.map((tech) => (
-                    <img key={project.techDescriptions![index]} src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
-                  ))}
+                  <img key={project.techDescriptions![index]} src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
+                ))}
               </div>
             </li>
             <li className={styles.techsContainer}>
