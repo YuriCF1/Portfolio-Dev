@@ -25,15 +25,15 @@ Coded with NextJs and Typescript, using internal json files to organize all iten
 - [ X ] HTML structure
 - [ X ] CSS Style
 - [ X ] Json file
-- [ X ] Creating of header
-- [ X ] Creating of About
-- [ X ] Creating of profile
-- [ X ] Creating of Projects
-- [ X ] Creating of Contact
-- [ X ] Creating of Footer
+- [ X ] Creation of header
+- [ X ] Creation of About
+- [ X ] Creation of profile
+- [ X ] Creation of Projects
+- [ X ] Creation of Contact
+- [ X ] Creation of Footer
 - [ X ] Conecting component of contact with my email
 - [ X ] Changin lateral bar's style
-- [ X ] Creating of Courses
+- [ X ] Creation of Courses
 - 
 <img src="https://raw.githubusercontent.com/YuriCF1/Portfolio-Dev/9e9423119a9fb7f25037c6aa2bd684f70990afc2/public/assets/img/example.png" alt="imagem do site">
 
