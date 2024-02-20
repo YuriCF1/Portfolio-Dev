@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "RxJS e Angular: programando de forma reativa",
+      "eng-title": "RxJS and Angular: programming reactively"
+    },
+    {
       "title": "Angular: ciclo de vida",
       "eng-title": "Angular: Life's Cycle"
     },
