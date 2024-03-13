@@ -1,12 +1,16 @@
 {
   "courses": [
     {
-      "title": "RxJS e Angular: programando de forma reativa",
-      "eng-title": "RxJS and Angular: programming reactively"
+      "title": "Angular: aprimore suas técnicas de animação e crie interfaces ainda mais atraentes",
+      "eng-title": "Angular: improve your animation techniques and create even more attractive interfaces"
     },
     {
-      "title": "Angular - Animações",
-      "eng-title": "Angular - Animations"
+      "title": "Angular: torne sua aplicação interativa e personalizada com animações",
+      "eng-title": "Angular: make your application interactive and personalized with animations"
+    },
+    {
+      "title": "RxJS e Angular: programando de forma reativa",
+      "eng-title": "RxJS and Angular: programming reactively"
     },
     {
       "title": "Angular: ciclo de vida",
