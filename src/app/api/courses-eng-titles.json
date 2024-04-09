@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Vue 3: understanding components, directives and reactivity in the framework",
+      "eng-title": "Vue 3: understanding components, directives and reactivity in the framework"
+    },
+    {
       "title": "Angular: aprimore suas técnicas de animação e crie interfaces ainda mais atraentes",
       "eng-title": "Angular: improve your animation techniques and create even more attractive interfaces"
     },
