@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "title": "Pesquisa de receita por API usando Vue",
+      "description": "Projeto de um site de pesquisa de receitas de acordo com ingredientes selecionados.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de pesquisa de receitas",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone Typescript",
+        "Ícone Vue"
+ 
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Reactive-Programing",
+      "linkDeploy": "https://proj-study-angular-reactive-programing.vercel.app/lista-livros"
+    },
+    {
       "title": "Pesquisa Google Books API, RxJs",
       "description": "Projeto de um site de pesquisas, visando a reatividade RxJs, integrando a API do google books.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular-Reactive-Programing/b292142b50a7aa09b3bca26f77bfbc4fbcab5067/src/assets/imagens/example.png",
