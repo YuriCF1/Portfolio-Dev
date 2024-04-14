@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Vue3: explorando o framework",
+      "eng-title": "Vue3: exploring the framework"
+    },
+    {
       "title": "Vue 3: understanding components, directives and reactivity in the framework",
       "eng-title": "Vue 3: understanding components, directives and reactivity in the framework"
     },
