@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "title": "Verificando tempo de tarefas",
+      "description": "Projeto do Alura-tracker, site feito para adicionar tarefas e contar o tempo gasto realizando-as.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto Alura-tracker",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone Bulma framework",
+        "Ícone Typescript",
+        "Ícone Vue"
+ 
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Vue-AluraTracker",
+      "linkDeploy": "https://proj-study-vue-alura-tracker.vercel.app/"
+    },
+    {
       "title": "Pesquisa de receita por API usando Vue",
       "description": "Projeto de um site de pesquisa de receitas de acordo com ingredientes selecionados.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
