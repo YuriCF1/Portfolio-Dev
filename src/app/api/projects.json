@@ -3,7 +3,7 @@
     {
       "title": "Verificando tempo de tarefas",
       "description": "Projeto do Alura-tracker, site feito para adicionar tarefas e contar o tempo gasto realizando-as.",
-      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue-AluraTracker/1bf670a9a0eaed691564fb53f824049c76386174/src/assets/example.png",
       "altImg": "Imagem de exemplo de Projeto Alura-tracker",
       "techs": [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
