@@ -39,8 +39,8 @@
         "Ícone Typescript",
         "Ícone Vue"
       ],
-      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Reactive-Programing",
-      "linkDeploy": "https://proj-study-angular-reactive-programing.vercel.app/lista-livros"
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Vue",
+      "linkDeploy": "https://proj-study-vue.vercel.app/"
     },
     {
       "title": "Pesquisa Google Books API, RxJs",
