@@ -5,24 +5,25 @@ import Footer from "./components/Footer/page";
 import Header from "./components/Header/page";
 import Projects from "./components/Projects/pages";
 import Courses from "./components/courses/page";
+import { LanguageContextProvider } from "./context/toggleConext";
 
 import styles from "./page.module.css"
 
 export default async function Home() {
   return (
-    <>
-      <Header />
+    <LanguageContextProvider>
       <main className={styles.mainClass}>
         <div>
+          <Header />
           <About />
           <Projects />
-          <Courses  />
+          <Courses />
           <Email />
           <Footer />
           <ButtonTop />
         </div>
       </main>
-    </>
+    </LanguageContextProvider>
   )
 }
 
