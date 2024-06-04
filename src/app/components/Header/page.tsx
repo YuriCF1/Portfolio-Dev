@@ -1,13 +1,21 @@
 'use client'
 
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
 import EnglishImage from "/public/English.jpg";
 import PortugueseImage from "/public/Portuguese.jpg";
+import { LanguageContext } from "@/app/context/toggleConext";
 
 export function Header() {
   const [isToggled, setIsToggled] = useState(true);
+
+  const { language, setLanguage } = useContext(LanguageContext)
+
+  useEffect(() => {
+    setLanguage(isToggled ? "english" : "portuguese")
+    console.log(language);
+  }, [isToggled])
 
   const handleToggle = () => {
     setIsToggled(!isToggled);
@@ -51,30 +59,32 @@ export function Header() {
             </li>
           </ul>
         </nav>
-        <button
-          className={`${styles.toggleButton} ${isToggled ? styles.toggled : ""}`}
-          onClick={handleToggle}
-        >
-          <div className={styles.toggleContent}>
-            <div className={`${styles.toggleBall} ${isToggled ? styles.toggled : ""}`}></div>
-            {isToggled ?
-              <Image
-                src={PortugueseImage}
-                alt="Portuguese"
-                width={30}
-                height={21.0}
-                className={`${styles.toggleImage} ${styles.portFlag}`}
-              /> :
-              <Image
-                src={EnglishImage}
-                alt="English"
-                width={30}
-                height={21.0}
-                className={`${styles.toggleImage} ${styles.engFlag}`}
-              />
-            }
-          </div>
-        </button>
+        <div style={{ display: 'none'}}>
+          <button
+            className={`${styles.toggleButton} ${isToggled ? styles.toggled : ""}`}
+            onClick={handleToggle}
+          >
+            <div className={styles.toggleContent}>
+              <div className={`${styles.toggleBall} ${isToggled ? styles.toggled : ""}`}></div>
+              {isToggled ?
+                <Image
+                  src={PortugueseImage}
+                  alt="Portuguese"
+                  width={30}
+                  height={21.0}
+                  className={`${styles.toggleImage} ${styles.portFlag}`}
+                /> :
+                <Image
+                  src={EnglishImage}
+                  alt="English"
+                  width={30}
+                  height={21.0}
+                  className={`${styles.toggleImage} ${styles.engFlag}`}
+                />
+              }
+            </div>
+          </button>
+        </div>
       </div>
     </header>
   );
