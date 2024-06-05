@@ -6,6 +6,7 @@ import projectEnglish from "../../api/ProjectsEnglish.json"
 import styles from "./Projects.module.css"
 import Image from "next/image"
 import { LanguageContext } from "@/app/context/toggleConext";
+import profilePic from "../../../../public/img/Profile.jpg"
 
 interface Project {
   title: string;
@@ -39,7 +40,8 @@ export default function Projects() {
       <section className={styles.board} id="projetos" >
         <div className={styles.profileImgContainer}>
           <div className={styles.divProfImage}>
-            <Image src='https://github.com/YuriCF1.png' objectFit="cover" layout="fill" alt="Foto de Perfil Yuri Cruz" className={styles.profileImg} />
+            {/* <Image src='https://github.com/YuriCF1.png' objectFit="cover" layout="fill" alt="Foto de Perfil Yuri Cruz" className={styles.profileImg} /> */}
+            <Image src={profilePic} objectFit="cover" layout="fill" alt="Foto de Perfil Yuri Cruz" className={styles.profileImg} />
           </div>
           <ul>
             <li><a href="https://www.linkedin.com/in/yuricf/" target="_blank">
