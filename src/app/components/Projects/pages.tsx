@@ -1,6 +1,11 @@
-import projects from "../../api/projects.json"
+'use client'
+
+import { useContext, useEffect, useState } from "react";
+import projectsPortuguese from "../../api/projects.json"
+import projectEnglish from "../../api/ProjectsEnglish.json"
 import styles from "./Projects.module.css"
 import Image from "next/image"
+import { LanguageContext } from "@/app/context/toggleConext";
 
 interface Project {
   title: string;
@@ -14,6 +19,18 @@ interface Project {
 }
 
 export default function Projects() {
+
+  const { language } = useContext(LanguageContext)
+
+  const [srcProjects, setSrcProjects] = useState(projectsPortuguese);
+
+  useEffect(() => {
+    const srcProject = language === "portuguese" ? projectsPortuguese : projectEnglish;
+    setSrcProjects(srcProject);
+  }, [language]);
+
+
+
   return (
     <section className={styles.board} id="projetos" data-aos="fade-down"
       data-aos-easing="linear"
@@ -47,13 +64,13 @@ export default function Projects() {
         <p>Frontend dev. HTML/CSS/JS/TS/React/MongoDB/Firebase. User of design Figma, Blender, Photoshop and Premiere.</p>
       </div>
       <div className={styles.cardSection}>
-        {projects.projects.map((project: Project, index: number) => (
+        {srcProjects.projects.map((project: Project, index: number) => (
           <ul className={styles.title} key={project.title}>
             <li>
-              <strong className={styles.cardTitle}>Título:</strong> <p>{project.title}</p>
+              <strong className={styles.cardTitle}>{language && language === "portuguese" ? "Título" : "Title"}:</strong> <p>{project.title}</p>
             </li>
             <li>
-              <strong>Descrição:</strong> <p>{project.description} </p>
+              <strong>{language && language === "portuguese" ? "Descrição" : "Description"}:</strong> <p>{project.description} </p>
             </li>
             {/* Tem que fazer isso para que o tamanho da imagem abaixo consiga ser modificada pelo css */}
             <div className={styles.divImage} >
@@ -62,7 +79,7 @@ export default function Projects() {
               </a>
             </div>
             <li className={styles.techsContainer}>
-              <strong>Tecnologias:</strong>
+              <strong>{language && language === "portuguese" ? "Tecnologias" : "Techs"}</strong>
               <div>
                 {project.techs.map((tech) => (
                   <img key={project.techDescriptions![index]} src={tech} alt={project.techDescriptions && project.techDescriptions[index] ? project.techDescriptions[index] : 'Descrição da tecnologia'} className={styles.techs} />
