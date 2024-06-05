@@ -13,8 +13,7 @@ export function Header() {
   const { language, setLanguage } = useContext(LanguageContext)
 
   useEffect(() => {
-    setLanguage(isToggled ? "english" : "portuguese")
-    console.log(language);
+    setLanguage(isToggled ? "portuguese" : "english")
   }, [isToggled])
 
   const handleToggle = () => {
@@ -44,22 +43,22 @@ export function Header() {
             </li>
             <li className={styles.listItem}>
               <a className={styles.cabecalho_itens} href="#projetos">
-                Projetos
+                {language && language === "portuguese" ? "Projetos" : "Projects"}
               </a>
             </li>
             <li className={styles.listItem}>
               <a className={styles.cabecalho_itens} href="#cursos">
-                Cursos
+                {language && language === "portuguese" ? "Cursos" : "Courses"}
               </a>
             </li>
             <li className={styles.listItem}>
               <a className={styles.cabecalho_itens} href="#contato">
-                Contato
+                {language && language === "portuguese" ? "Contato" : "Contact"}
               </a>
             </li>
           </ul>
         </nav>
-        <div style={{ display: 'none'}}>
+        <div style={{ display: '' }}>
           <button
             className={`${styles.toggleButton} ${isToggled ? styles.toggled : ""}`}
             onClick={handleToggle}
