@@ -1,3 +1,23 @@
+.mainTitle {
+  color: #fdfdfd;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  position: relative; /* Necessário para fazer a borda fade out */
+}
+
+/* Fade out de ambos os lados */
+.mainTitle:after { 
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgba(34, 27, 54, 0), #221b36, rgba(34, 27, 54, 0));
+}
+
 .board {
   max-width: 90%;
   margin: 0 auto;
@@ -163,7 +183,6 @@ ul.title li:nth-child(2) {
     width: 90%;
     margin: 1.2em;
   }
-
 
   ul.title li:nth-child(2) {
     margin-top: 1em;
