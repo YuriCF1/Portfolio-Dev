@@ -1,8 +1,14 @@
+'use client'
+
+import { useContext } from "react"
 import styles from "./Footer.module.css"
+import { LanguageContext } from "@/app/context/toggleConext"
 
 export function Footer() {
     const ano = new Date()
     const anoString = ano.getFullYear().toString()
+
+    const { language, setLanguage } = useContext(LanguageContext)
 
     return (
         <footer className={styles.rodape_container}>
@@ -24,7 +30,7 @@ export function Footer() {
                     </a></li>
                 </ul>
             </div>
-            <p className={styles.copyright}>&copy; Todos os direitos reservados - {anoString}</p>
+            <p className={styles.copyright}>&copy; {language === "portuguese" ? 'Todos os direitos reservados' : 'All rights reserved'} - {anoString}</p>
         </footer>
     )
 }
