@@ -1,0 +1,175 @@
+.sobre_container {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 80vw;
+  font-size: 1.42rem;
+  margin: 2rem auto;
+  line-height: 2.6rem;
+  height: 32vh;
+}
+
+.sobre_titulo {
+  color: #fdfdfd;
+  text-align: center;
+  font-size: 2.6rem;
+  margin: 1rem 0 3rem 0;
+  padding-top: 3rem;
+}
+
+.sobre_texto {
+  display: inline-block;
+  line-height: 1.6rem;
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.6rem;
+}
+
+.borda-transparente {
+  border-right-color: transparent !important; /* Forçando a borda a ser transparente */
+  animation: none !important; /* Removendo a animação */
+}
+
+.typing_animationDesktop1 {
+  /* Definindo a borda inicial */
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75);  */
+  box-sizing: border-box;
+  animation: 
+  /* piscaCursorDesktop1 900ms infinite normal, */ 
+  apareceTextoDesktop1 5.5s steps(100) 1.5s normal both;
+}
+
+@keyframes apareceTextoDesktop1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 99.5rem;
+  }
+}
+
+@keyframes piscaCursorDesktop1 {
+  from {
+    border-right-color: 2px solid rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.typing_animationDesktop2 {
+  border-right: 2px solid rgba(255, 255, 255, 0.75); /* Definindo a borda inicial */
+  box-sizing: border-box;
+  animation: piscaCursorDesktop2 900ms infinite normal,
+    apareceTextoDesktop2 1s steps(60) 7s normal both;
+}
+
+@keyframes apareceTextoDesktop2 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 13.5rem;
+  }
+}
+
+@keyframes piscaCursorDesktop2 {
+  from {
+    border-right-color: 2px solid rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px) {
+  .versaoMob {
+    display: none;
+  }
+}
+
+.sobre_texto2,
+.sobre_texto3 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100vw;
+  }
+
+  .versaoPC {
+    display: none;
+  }
+
+  .sobre_container {
+    height: 45vh;
+  }
+
+  .sobre_texto2,
+  .sobre_texto3 {
+    border-right: 2px solid #0e0b16;
+    font-size: 18px;
+    color: #fdfdfd;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .typing_animation1 {
+    animation: piscaCursor2 900ms 3.2 normal,
+      apareceTexto 2s steps(30) 1s normal both;
+  }
+
+  .typing_animation2 {
+    animation: piscaCursor2 900ms 2 3s,
+      apareceTexto 1.6s steps(30) 3s normal both;
+  }
+
+  .typing_animation3 {
+    animation: piscaCursor2 900ms 2 5s,
+      apareceTexto 1.6s steps(30) 5s normal both;
+  }
+
+  .typing_animation4 {
+    animation: piscaCursor2 900ms infinite 7s,
+      apareceTexto2 1.6s steps(25) 7s normal both;
+  }
+
+  @keyframes apareceTexto {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 80vw;
+    }
+  }
+
+  @keyframes apareceTexto2 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 37vw;
+    }
+  }
+
+  @keyframes piscaCursor2 {
+    0% {
+      border-right-color: rgb(240, 240, 240);
+    }
+
+    100% {
+      border-right-color: transparent;
+    }
+  }
+}
