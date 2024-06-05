@@ -19,28 +19,62 @@
 .sobre_texto {
   display: inline-block;
   line-height: 1.6rem;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
   overflow: hidden;
   white-space: nowrap;
   font-size: 1.6rem;
 }
 
-.typing_animation {
-  animation: piscaCursor 900ms infinite normal,
-    apareceTexto 5.5s steps(100) 1.5s normal both;
+.borda-transparente {
+  border-right-color: transparent !important; /* Forçando a borda a ser transparente */
+  animation: none !important; /* Removendo a animação */
 }
 
-@keyframes apareceTexto {
+.typing_animationDesktop1 {
+  border-right: 2px solid rgba(255, 255, 255, 0.75); /* Definindo a borda inicial */
+  box-sizing: border-box;
+  animation: piscaCursorDesktop1 900ms infinite normal,
+    apareceTextoDesktop1 5.5s steps(100) 1.5s normal both;
+}
+
+@keyframes apareceTextoDesktop1 {
   from {
     width: 0;
   }
 
   to {
-    width: 92.5rem;
+    width: 91.5rem;
   }
 }
 
-@keyframes piscaCursor {
+@keyframes piscaCursorDesktop1 {
+  from {
+    border-right-color: 2px solid rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.typing_animationDesktop2 {
+  border-right: 2px solid rgba(255, 255, 255, 0.75); /* Definindo a borda inicial */
+  box-sizing: border-box;
+  animation: piscaCursorDesktop2 900ms infinite normal,
+    apareceTextoDesktop2 1s steps(60) 7s normal both;
+}
+
+@keyframes apareceTextoDesktop2 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 12.5rem;
+  }
+}
+
+@keyframes piscaCursorDesktop2 {
   from {
     border-right-color: 2px solid rgba(255, 255, 255, 0.75);
   }
