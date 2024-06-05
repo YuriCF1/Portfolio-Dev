@@ -27,7 +27,7 @@ const Courses = () => {
     return (
         <>
             <div data-aos="fade-down" data-aos-duration="5000" id="cursos">
-                <h2 className={styles.titulo}>Cursos realizados</h2>
+                <h2 className={styles.titulo}>{language === "portuguese" ? 'Cursos realizados' : 'Certificates'}</h2>
                 <div className={styles.container}>
                     <div className={styles.columnWrapper}>
                         <ul>
