@@ -1,0 +1,78 @@
+.bandeiras {
+  padding: 5px;
+  position: fixed;
+  top: 7%;
+  right: 0%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .bandeiras {
+    display: none;
+  }
+}
+
+/* ________________________________________________BUTTON________________________________________________ */
+.toggleContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  scale: 0.8 !important;
+}
+
+/* width: 75px; 
+height: 34px; */
+
+.toggleButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px; /* Largura do botão */
+  height: 45.945px;
+  background-color: #0a3161;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 0 5px;
+  overflow: hidden; /* Oculta a bolinha fora dos limites */
+}
+
+.toggleBall {
+  position: absolute;
+  top: -15px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  z-index: 1;
+}
+
+.toggleButton.toggled .toggleBall {
+  transform: translateX(58px); /* Ajuste animação */
+}
+
+.toggleButton.toggled {
+  background-color: #4caf50;
+}
+
+.toggleImage {
+  width: 45px;
+  height: 31.5px;
+  border-radius: 20px;
+}
+
+.portFlag {
+  position: absolute;
+  left: 0;
+}
+
+.engFlag {
+  position: absolute;
+  right: 0;
+}

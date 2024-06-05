@@ -1,5 +1,6 @@
 import { About } from "./components/About/page";
 import ButtonTop from "./components/ButtonTop/ButtonTop";
+import LanguageButton from "./components/LanguageButton/LanguageButton";
 import Email from "./components/Email/page";
 import Footer from "./components/Footer/page";
 import Header from "./components/Header/page";
@@ -21,6 +22,7 @@ export default async function Home() {
           <Email />
           <Footer />
           <ButtonTop />
+          <LanguageButton />
         </div>
       </main>
     </LanguageContextProvider>
