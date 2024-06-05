@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "MySQL: Do básico ao avançado - Desenvolvelvendo banco de dados",
+      "eng_title": "MySQL: From basic to advanced  - Developing a Database"
+    },
+    {
       "title": "Vue3: Avançando com o framework",
       "eng_title": "Vue3: Advancing in the framework"
     },
