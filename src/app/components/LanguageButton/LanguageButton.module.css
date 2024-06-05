@@ -1,14 +1,13 @@
 .bandeiras {
   padding: 5px;
   position: fixed;
-  top: 7%;
+  top: 1%;
   right: 0%;
 }
 
-
 @media screen and (max-width: 500px) {
   .bandeiras {
-    display: none;
+    right: auto;
   }
 }
 
@@ -26,19 +25,20 @@
 height: 34px; */
 
 .toggleButton {
-  position: relative;
+  /* position: relative; */
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   width: 100px; /* Largura do botão */
-  height: 45.945px;
+  height: 46.945px;
   background-color: #0a3161;
   border: none;
   border-radius: 34px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.5s;
   padding: 0 5px;
-  overflow: hidden; /* Oculta a bolinha fora dos limites */
+  overflow: hidden;
+  /* Oculta a bolinha fora dos limites */
 }
 
 .toggleBall {

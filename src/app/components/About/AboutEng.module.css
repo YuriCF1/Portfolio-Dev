@@ -35,8 +35,8 @@
   /* border-right: 2px solid rgba(255, 255, 255, 0.75);  */
   box-sizing: border-box;
   animation: 
-  /* piscaCursorDesktop1 900ms infinite normal, */ 
-  apareceTextoDesktop1 5.5s steps(100) 1.5s normal both;
+  /* piscaCursorDesktop1 900ms infinite normal, */ apareceTextoDesktop1
+    5.5s steps(100) 1.5s normal both;
 }
 
 @keyframes apareceTextoDesktop1 {
@@ -100,6 +100,20 @@
   white-space: nowrap;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px) {
+  .versaoMob {
+    display: none;
+  }
+}
+
+.sobre_texto2,
+.sobre_texto3 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 500px) {
   .main {
     width: 100vw;
@@ -123,33 +137,52 @@
     box-sizing: border-box;
   }
 
-  .typing_animation1 {
-    animation: piscaCursor2 900ms 3.2 normal,
-      apareceTexto 2s steps(30) 1s normal both;
+  .typing_animation1English {
+    animation: piscaCursor1 900ms 2.5s normal,
+      apareceTexto1 1.5s steps(30) 1s normal both;
   }
 
-  .typing_animation2 {
-    animation: piscaCursor2 900ms 2 3s,
-      apareceTexto 1.6s steps(30) 3s normal both;
+  .typing_animation2English {
+    animation: piscaCursor1 900ms 2s normal 2, 5,
+      apareceTexto2 2s steps(30) 2.5s normal both;
   }
 
-  .typing_animation3 {
-    animation: piscaCursor2 900ms 2 5s,
-      apareceTexto 1.6s steps(30) 5s normal both;
+  .typing_animation3English {
+    animation: piscaCursor1 900ms 2s normal 4.5,
+      apareceTexto3 2s steps(30) 4.5s normal both;
   }
 
-  .typing_animation4 {
-    animation: piscaCursor2 900ms infinite 7s,
-      apareceTexto2 1.6s steps(25) 7s normal both;
+  .typing_animation4English {
+    animation: piscaCursor1 900ms 2.1s normal 6.5,
+      apareceTexto4 2.1s steps(25) 6.5s normal both;
   }
 
-  @keyframes apareceTexto {
+  .typing_animation5English {
+    animation: piscaCursor1 900ms 2s normal 8.6,
+      apareceTexto5 2s steps(25) 8.6s normal both;
+  }
+  .typing_animation6English {
+    animation: piscaCursor1 900ms 100s normal 10.6,
+      apareceTexto5 2s steps(25) 10.6s normal both;
+  }
+
+  @keyframes piscaCursor1 {
+    0% {
+      border-right-color: rgb(240, 240, 240);
+    }
+
+    100% {
+      border-right-color: transparent;
+    }
+  }
+
+  @keyframes apareceTexto1 {
     from {
       width: 0;
     }
 
     to {
-      width: 80vw;
+      width: 50vw;
     }
   }
 
@@ -159,17 +192,37 @@
     }
 
     to {
-      width: 37vw;
+      width: 47vw;
     }
   }
 
-  @keyframes piscaCursor2 {
-    0% {
-      border-right-color: rgb(240, 240, 240);
+  @keyframes apareceTexto3 {
+    from {
+      width: 0;
     }
 
-    100% {
-      border-right-color: transparent;
+    to {
+      width: 67vw;
+    }
+  }
+
+  @keyframes apareceTexto4 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 60vw;
+    }
+  }
+
+  @keyframes apareceTexto5 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 67vw;
     }
   }
 }

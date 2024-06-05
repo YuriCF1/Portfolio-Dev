@@ -27,7 +27,7 @@ export function About() {
                         {/* ____________________________________________VERSÃO MOBILE - PORT____________________________________________ */}
                         <div className={stylesPortuguese.versaoMob}>
                             <p className={`${stylesPortuguese.sobre_texto2} ${stylesPortuguese.typing_animation1}`} id="servicos">Olá! Me chamo Yuri.
-                                Sou Desenvolvedor frontend</p>
+                                Sou Desenvolvedor Frontend</p>
                             <p className={`${stylesPortuguese.sobre_texto3} ${stylesPortuguese.typing_animation2}`}>com conhecimento em backend, e pretendo</p>
                             <p className={`${stylesPortuguese.sobre_texto3} ${stylesPortuguese.typing_animation3}`}> ser um exímio fullstack developer.</p >
                             <p className={`${stylesPortuguese.sobre_texto3} ${stylesPortuguese.typing_animation4}`}> E amo tudo isso {`=)`}</p >
@@ -46,11 +46,12 @@ export function About() {
                         </div>
                         {/* ____________________________________________VERSÃO MOBILE - ENG____________________________________________ */}
                         <div className={stylesEng.versaoMob}>
-                            <p className={`${stylesEng.sobre_texto2} ${stylesEng.typing_animation1}`} id="servicos">Olá! Me chamo Yuri.
-                                Sou Desenvolvedor frontend</p>
-                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation2}`}>com conhecimento em backend, e pretendo</p>
-                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation3}`}> ser um exímio fullstack developer.</p >
-                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation4}`}> E amo tudo isso {`=)`}</p >
+                            <p className={`${stylesEng.sobre_texto2} ${stylesEng.typing_animation1English}`} id="servicos">Hello there! My name is Yuri,</p>
+                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation2English}`}>I'm a Frontend Developer</p>
+                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation3English}`}>with also some experience on backend,</p>
+                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation4English}`}>and I want to become an amazing</p >
+                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation5English}`}>FullStack/Mobile Developer.</p >
+                            <p className={`${stylesEng.sobre_texto3} ${stylesEng.typing_animation6English}`}>And I love all that {`=)`}</p >
                         </div >
                     </div>
                 }
