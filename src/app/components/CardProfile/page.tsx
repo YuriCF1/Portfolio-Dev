@@ -1,3 +1,5 @@
+'use client'
+
 import profilePic from "../../../../public/img/Profile.jpg"
 import Image from "next/image"
 import styles from "./CardProfile.module.css"
