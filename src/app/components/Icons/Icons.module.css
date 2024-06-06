@@ -1,0 +1,39 @@
+.secao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #cecece;
+  margin-bottom: 2rem;
+  animation: icones 1s 1s normal;
+}
+
+.secao h3 {
+  margin-bottom: 1rem;
+}
+
+.iconsL {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.iconsL img {
+  margin-bottom: 0.5rem;
+}
+
+.iconsL > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.iconsL span {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #b9b9b9;
+  text-align: center;
+}
