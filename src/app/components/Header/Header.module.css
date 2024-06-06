@@ -1,7 +1,4 @@
-/* header {
-    font-family: "Share Tech", sans-serif;
-  } */
-
+/* TELAS MAIORES */
 .cabecalho_container {
   background-color: #0e0b16;
   height: 15vh;
@@ -38,6 +35,7 @@
   text-decoration: none;
 }
 
+/* Telas Menores */
 @media screen and (max-width: 500px) {
   .cabecalho_container {
     flex-direction: column;
@@ -49,8 +47,14 @@
   }
 
   .cabecalho_navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 2rem;
-    /* max-width: 80% */
+  }
+
+  .cabecalho_links {
+    flex-direction: row;
   }
 
   .cabecalho_itens {
@@ -71,15 +75,12 @@
   scale: 0.8 !important;
 }
 
-/* width: 75px; 
-height: 34px; */
-
 .toggleButton {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  width: 100px; /* Largura do botão */
+  width: 100px;
   height: 45.945px;
   background-color: #0a3161;
   border: none;
@@ -87,7 +88,7 @@ height: 34px; */
   cursor: pointer;
   transition: background-color 0.3s;
   padding: 0 5px;
-  overflow: hidden; /* Oculta a bolinha fora dos limites */
+  overflow: hidden;
 }
 
 .toggleBall {
@@ -103,7 +104,7 @@ height: 34px; */
 }
 
 .toggleButton.toggled .toggleBall {
-  transform: translateX(58px); /* Ajuste animação */
+  transform: translateX(58px);
 }
 
 .toggleButton.toggled {

@@ -66,3 +66,23 @@ ul.title li:nth-child(2) {
   width: 500px;
   height: 200px;
 }
+
+/* Estilos para telas menores (mobile) */
+@media screen and (max-width: 768px) {
+  .cardSection {
+    width: 100%; /* Altera a largura dos cards para preencher toda a largura da tela */
+  }
+
+  .cardSection ul {
+    max-width: 100%; /* Altera a largura máxima dos cards para preencher toda a largura da tela */
+    margin: 1em 0; /* Ajusta a margem dos cards */
+  }
+
+  .divImage {
+    width: 100%; /* Ajusta a largura da imagem para preencher toda a largura do card */
+  }
+
+  .divEx {
+    width: 100%; /* Ajusta a largura do exemplo para preencher toda a largura do card */
+  }
+}

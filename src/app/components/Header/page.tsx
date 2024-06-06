@@ -3,22 +3,11 @@
 import { useContext, useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
-// import EnglishImage from "/public/English.jpg";
-// import PortugueseImage from "/public/Portuguese.jpg";
 import { LanguageContext } from "@/app/context/toggleConext";
 
 export function Header() {
-  // const [isToggled, setIsToggled] = useState(true);
 
-  const { language, setLanguage } = useContext(LanguageContext)
-
-  // useEffect(() => {
-  //   setLanguage(isToggled ? "portuguese" : "english")
-  // }, [isToggled])
-
-  // const handleToggle = () => {
-  //   setIsToggled(!isToggled);
-  // };
+  const { language } = useContext(LanguageContext)
 
   return (
     <header>

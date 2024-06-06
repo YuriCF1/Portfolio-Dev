@@ -1,3 +1,4 @@
+/* Estilos para telas maiores */
 .secao {
   display: flex;
   flex-direction: column;
@@ -13,9 +14,13 @@
 }
 
 .iconsL {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
+  max-width: 90%;
+  justify-content: center;
+  row-gap: 2rem;
 }
 
 .iconsL img {
@@ -36,4 +41,39 @@
   font-size: 1.1rem;
   color: #b9b9b9;
   text-align: center;
+}
+
+/* Estilos para telas menores (mobile) */
+@media screen and (max-width: 768px) {
+  .secao {
+    margin-bottom: 1rem;
+    animation-delay: 0s; /* Redefinir o atraso da animação para dispositivos móveis */
+  }
+
+  .secao h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .iconsL {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas por linha */
+    gap: 1rem;
+    justify-items: center;
+    /* transform: scale(.); */
+    margin-top: 1rem;
+  }
+
+  .iconsL > div {
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+  }
+
+  .iconsL span {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+  }
 }

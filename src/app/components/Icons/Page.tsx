@@ -3,7 +3,7 @@ import s from "./Icons.module.css"
 const Icons = () => {
     return (
         <section className={s.secao} data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000">
-            <h3>Linguages e frameworks que tenho experiência</h3>
+            <h3>Linguages, frameworks e plataformas que tenho experiência</h3>
             <div className={s.iconsL}>
                 <div>
                     <img alt="Symbol-HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" height="35" />
@@ -58,6 +58,10 @@ const Icons = () => {
                     <span>RxJS</span>
                 </div>
                 <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40" />
+                    <span>Vue</span>
+                </div>
+                <div>
                     <img alt="wordpress symbol" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" width="40" height="40" />
                     <span>WordPress</span>
                 </div>
@@ -78,12 +82,24 @@ const Icons = () => {
                     <span>Node.js</span>
                 </div>
                 <div>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40" />
-                    <span>PostgreSQL</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" />
+                    <span>MySQL</span>
                 </div>
                 <div>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" />
                     <span>Git</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40" height="40" />
+                    <span>Figma</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="40" height="40" />
+                    <span>Photoshop</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" width="40" height="40" />
+                    <span>Blender</span>
                 </div>
             </div>
         </section>

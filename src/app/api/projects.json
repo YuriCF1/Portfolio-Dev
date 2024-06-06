@@ -23,7 +23,7 @@
       "linkDeploy": "https://proj-study-vue-alura-tracker.vercel.app/"
     },
     {
-      "title": "Pesquisa de receita por API usando Vue",
+      "title": "Pesquisando por API usando Vue",
       "description": "Projeto de um site de pesquisa de receitas de acordo com ingredientes selecionados.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
       "altImg": "Imagem de exemplo de Projeto de pesquisa de receitas",

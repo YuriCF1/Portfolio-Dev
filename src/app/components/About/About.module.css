@@ -19,23 +19,19 @@
 .sobre_texto {
   display: inline-block;
   line-height: 1.6rem;
-  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
   overflow: hidden;
   white-space: nowrap;
   font-size: 1.6rem;
 }
 
 .borda-transparente {
-  border-right-color: transparent !important; /* Forçando a borda a ser transparente */
-  animation: none !important; /* Removendo a animação */
+  border-right-color: transparent !important;
+  animation: none !important;
 }
 
 .typing_animationDesktop1 {
-  /* Definindo a borda inicial */
-  /* border-right: 2px solid rgba(255, 255, 255, 0.75);  */
   box-sizing: border-box;
   animation: 
-  /* piscaCursorDesktop1 900ms infinite normal, */
     apareceTextoDesktop1 5.5s steps(100) 1.5s normal both;
 }
 
@@ -61,7 +57,7 @@
 }
 
 .typing_animationDesktop2 {
-  border-right: 2px solid rgba(255, 255, 255, 0.75); /* Definindo a borda inicial */
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
   box-sizing: border-box;
   animation: piscaCursorDesktop2 900ms infinite normal,
     apareceTextoDesktop2 1s steps(60) 7s normal both;
@@ -160,7 +156,7 @@
     }
 
     to {
-      width: 37vw;
+      width: 34vw;
     }
   }
 

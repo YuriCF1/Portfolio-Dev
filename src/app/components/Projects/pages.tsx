@@ -15,7 +15,7 @@ export default function Projects() {
     <div data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500">
-      <h1 className={styles.mainTitle}>{language && language === "portuguese" ? "Projetos desenvolvidos" : "Developed Projects"}</h1>
+      <h1 className={styles.mainTitle}>{language && language === "portuguese" ? "Experiências" : "Experiences"}</h1>
       <Icons />
       <section className={styles.board} id="projetos" >
         <div className={styles.profileImgContainer}>

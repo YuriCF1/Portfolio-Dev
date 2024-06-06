@@ -11,7 +11,7 @@
   z-index: 1;
 }
 
-.modaNo {
+.modalNo {
   display: none;
 }
 
@@ -63,4 +63,31 @@
 .container2 button:hover {
   background-color: #87ceeb;
   transform: scale(1.05);
+}
+
+/* Estilos para telas menores (mobile) */
+@media screen and (max-width: 768px) {
+  .container2 {
+    height: auto;
+    width: 80%;
+  }
+
+  .container2 h2 {
+    font-size: 2.5rem;
+  }
+
+  .container2 p {
+    font-size: 1.5rem;
+  }
+
+  .container2 strong {
+    font-size: 1.25rem;
+  }
+
+  .container2 button {
+    font-size: 1rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+  }
 }

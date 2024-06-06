@@ -1,13 +1,13 @@
+/* Estilos para telas maiores */
 .mainTitle {
   color: #fdfdfd;
   text-align: center;
   margin-bottom: 1rem;
   font-size: 2rem;
   padding: 1rem;
-  position: relative; /* Necessário para fazer a borda fade out */
+  position: relative;
 }
 
-/* Fade out de ambos os lados */
 .mainTitle:after {
   content: "";
   position: absolute;
@@ -66,6 +66,7 @@
 .profileImgContainer ul a {
   color: black;
 }
+
 .profileImgContainer > p {
   font-weight: bold;
   word-wrap: break-word;
@@ -73,12 +74,13 @@
   padding: 5px;
   border-radius: 10px;
 }
+
 .divProfImage {
   position: relative;
   height: 300px;
   width: 300px;
   margin-bottom: 1.3em;
-  overflow: hidden; /* Garante que a imagem ampliada não ultrapasse os limites */
+  overflow: hidden;
   border-radius: 50%;
   box-sizing: border-box;
   animation: pulsar 2s infinite;
@@ -102,14 +104,42 @@
 @keyframes pulsar {
   0% {
     transform: scale(1);
-    box-shadow: 0px 0px 2px 2px rgb(15, 12, 23, 0.5); /* Sombra inicial */
+    box-shadow: 0px 0px 2px 2px rgba(15, 12, 23, 0.5);
   }
   50% {
     transform: scale(1.01);
-    box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 0.5); /* Sombra maior no meio da animação */
+    box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 0.5);
   }
   100% {
     transform: scale(1);
-    box-shadow: 0px 0px 2px 2px rgb(15, 12, 23, 0.5); /* Sombra final */
+    box-shadow: 0px 0px 2px 2px rgba(15, 12, 23, 0.5);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainTitle {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .board {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileImgContainer {
+    height: auto;
+    max-width: 90%;
+  }
+
+  .profileImgContainer ul {
+    font-size: 1rem;
+  }
+
+  .profileImgContainer li {
+    flex: 0 0 calc(50% - 10px);
+  }
+
+  .profileImg {
+    left: 0; /* Ajuste na posição da imagem */
   }
 }
