@@ -1,9 +1,13 @@
+import { useContext } from "react"
 import s from "./Icons.module.css"
+import { LanguageContext } from "@/app/context/toggleConext"
 
 const Icons = () => {
+    const { language } = useContext(LanguageContext)
+
     return (
         <section className={s.secao} data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000">
-            <h3>Linguages, frameworks e plataformas que tenho experiência</h3>
+            <h3>{language === "portuguese" ? "Linguages, frameworks e plataformas que tenho experiência" : "Language, frameworks and plataforms that I have experience"}</h3>
             <div className={s.iconsL}>
                 <div>
                     <img alt="Symbol-HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" height="35" />
