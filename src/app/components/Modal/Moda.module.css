@@ -1,0 +1,66 @@
+.modalYes {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fdfdfd;
+  z-index: 1;
+}
+
+.modaNo {
+  display: none;
+}
+
+.container2 {
+  position: relative;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 12rem;
+  width: auto;
+}
+
+.container2 h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container2 p {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.container2 strong {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.75rem;
+  display: block;
+}
+
+.container2 button {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 1.25rem;
+  font-weight: bold;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  width: 6rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+  background-color: #add8e6;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.container2 button:hover {
+  background-color: #87ceeb;
+  transform: scale(1.05);
+}
