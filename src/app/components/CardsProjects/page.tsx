@@ -1,3 +1,5 @@
+'use client'
+
 import { useContext, useEffect, useState } from "react";
 import projectsPortuguese from "../../api/projects.json"
 import projectEnglish from "../../api/ProjectsEnglish.json"

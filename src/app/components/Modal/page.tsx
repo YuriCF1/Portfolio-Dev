@@ -9,11 +9,11 @@ const Modal = () => {
 
     const { language } = useContext(LanguageContext)
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setModal(true)
-    //     }, 5000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            setModal(true)
+        }, 9000)
+    }, [])
 
     function handleModal(): MouseEventHandler<HTMLButtonElement> | void {
         setModal(false)
