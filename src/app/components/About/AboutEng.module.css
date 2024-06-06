@@ -138,32 +138,32 @@
   }
 
   .typing_animation1English {
-    animation: piscaCursor1 900ms 2.5s normal,
-      apareceTexto1 1.5s steps(30) 1s normal both;
+    animation: piscaCursor1 900ms 1s normal,
+      apareceTexto1 1s steps(30) 1s normal both;
   }
 
   .typing_animation2English {
-    animation: piscaCursor1 900ms 2s normal 2, 5,
-      apareceTexto2 2s steps(30) 2.5s normal both;
+    animation: piscaCursor1 900ms 1s normal 2,
+      apareceTexto2 1s steps(30) 2s normal both;
   }
 
   .typing_animation3English {
-    animation: piscaCursor1 900ms 2s normal 4.5,
-      apareceTexto3 2s steps(30) 4.5s normal both;
+    animation: piscaCursor1 900ms 1.5s normal 3,
+      apareceTexto3 1.5s steps(30) 3s normal both;
   }
 
   .typing_animation4English {
-    animation: piscaCursor1 900ms 2.1s normal 6.5,
-      apareceTexto4 2.1s steps(25) 6.5s normal both;
+    animation: piscaCursor1 900ms 1.5s normal 4.5,
+      apareceTexto4 2s steps(30) 5s normal both;
   }
 
   .typing_animation5English {
-    animation: piscaCursor1 900ms 2s normal 8.6,
-      apareceTexto5 2s steps(25) 8.6s normal both;
+    animation: piscaCursor1 900ms 2s normal 6,
+      apareceTexto5 2s steps(25) 6s normal both;
   }
   .typing_animation6English {
-    animation: piscaCursor1 900ms 100s normal 10.6,
-      apareceTexto5 2s steps(25) 10.6s normal both;
+    animation: piscaCursor1 900ms 100s normal 8,
+      apareceTexto5 1.5s steps(25) 8s normal both;
   }
 
   @keyframes piscaCursor1 {
@@ -222,7 +222,7 @@
     }
 
     to {
-      width: 67vw;
+      width: 50vw;
     }
   }
 }
