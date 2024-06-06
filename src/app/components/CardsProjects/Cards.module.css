@@ -1,0 +1,131 @@
+/* _____________________________________________________CARDS_____________________________________________________ */
+.cardSection {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cardSection ul {
+  background: linear-gradient(#fcfcff, #909090);
+  max-width: 28%;
+  margin: 1em;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 15px;
+  list-style-type: none;
+  box-shadow: 2px 5px 10px #534d58;
+}
+
+ul.title li:nth-child(1) {
+  height: 20px;
+}
+
+ul.title li:nth-child(2) {
+  height: 80px;
+}
+
+.cardSection li {
+  margin: 0.5em 0;
+}
+.cardSection strong {
+  display: inline;
+  font-size: 1.3em;
+}
+.cardSection li p {
+  display: inline;
+  font-size: 1.2em;
+}
+
+.divImage {
+  margin: 0 auto;
+  position: relative;
+  width: 355px;
+  height: 199.7px;
+  position: relative;
+}
+
+.exampleImg {
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  transition: 0.2s ease-in-out;
+}
+
+.exampleImg:hover {
+  position: absolute;
+  transform: scale(2);
+  z-index: 1;
+  top: 2rem;
+}
+
+.techsContainer {
+  align-items: center;
+  display: flex;
+}
+
+.techs {
+  border-radius: 10px;
+  margin: 0.3em;
+  height: 35px;
+  width: 35px;
+}
+
+.divEx {
+  width: 500px;
+  height: 200px;
+}
+
+.profileImgContainer {
+  margin: 0em;
+  max-width: 90%;
+  width: 90%;
+}
+
+.divProfImage {
+  position: relative;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 1.3em;
+}
+
+/* _____________________________________________________CARDS_____________________________________________________ */
+.cardSection {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+
+.cardSection ul {
+  max-width: 100%;
+  width: 90%;
+  margin: 1.2em;
+}
+
+ul.title li:nth-child(2) {
+  margin-top: 1em;
+}
+
+.cardSection li {
+  margin: 0.5em 0;
+}
+.cardSection strong {
+  display: inline;
+  font-size: 1.3em;
+}
+.cardSection li p {
+  display: inline;
+  font-size: 1.2em;
+}
+
+.divImage {
+  /* position: relative; */
+  max-height: 50vw;
+  max-width: 28.3vh;
+  margin-top: 2em;
+}
+
+.techs {
+  height: 28px;
+}
