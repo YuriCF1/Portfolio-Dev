@@ -42,6 +42,12 @@ ul.title li:nth-child(2) {
   position: relative;
   width: 355px;
   height: 199.7px;
+  transition: .1s ease-in-out;
+}
+
+.divImage:hover {
+  transform: scale(1.75);
+  z-index: 2;
 }
 
 .exampleImg {
@@ -70,19 +76,19 @@ ul.title li:nth-child(2) {
 /* Estilos para telas menores (mobile) */
 @media screen and (max-width: 768px) {
   .cardSection {
-    width: 100%; /* Altera a largura dos cards para preencher toda a largura da tela */
+    width: 100%;
   }
 
   .cardSection ul {
-    max-width: 100%; /* Altera a largura máxima dos cards para preencher toda a largura da tela */
-    margin: 1em 0; /* Ajusta a margem dos cards */
+    max-width: 100%;
+    margin: 1em 0;
   }
 
   .divImage {
-    width: 100%; /* Ajusta a largura da imagem para preencher toda a largura do card */
+    width: 100%;
   }
 
   .divEx {
-    width: 100%; /* Ajusta a largura do exemplo para preencher toda a largura do card */
+    width: 100%;
   }
 }
