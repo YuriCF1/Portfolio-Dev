@@ -9,10 +9,12 @@ import Courses from "./components/courses/page";
 import { LanguageContextProvider } from "./context/toggleConext";
 
 import styles from "./page.module.css"
+import Modal from "./components/Modal/page";
 
 export default async function Home() {
   return (
     <LanguageContextProvider>
+      <Modal />
       <main className={styles.mainClass}>
         <div>
           <Header />
