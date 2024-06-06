@@ -1,0 +1,109 @@
+.profileImgContainer {
+  background: linear-gradient(#909090, #fcfcff);
+  border-radius: 15px;
+  padding: 15px;
+  list-style-type: none;
+  box-shadow: 2px 5px 10px #534d58;
+  height: 600px;
+  margin: 1em;
+  max-width: 300px;
+}
+
+.profileImgContainer ul {
+  text-decoration: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.2em;
+  flex-wrap: wrap;
+}
+
+.profileImgContainer li {
+  flex: 0 0 calc(33.33% - 10px);
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profileImgContainer li img {
+  height: 35px;
+  width: 35px;
+  margin-bottom: 5px;
+}
+
+.profileImgContainer ul a {
+  color: black;
+}
+
+.profileImgContainer > p {
+  font-weight: bold;
+  word-wrap: break-word;
+  background-color: #aaaaaa;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.divProfImage {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 1.3em;
+  overflow: hidden;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: pulsar 2s infinite;
+}
+
+.profileImg {
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+}
+
+.divProfImage:hover .profileImg {
+  transform: scale(1.2);
+  box-shadow: 16px 60px 650px #28252b;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+    box-shadow: 0px 0px 2px 2px rgba(15, 12, 23, 0.5);
+  }
+  50% {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0px 0px 2px 2px rgba(15, 12, 23, 0.5);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divProfImage {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .profileImgContainer {
+    height: auto;
+    max-width: 90%;
+  }
+
+  .profileImgContainer ul {
+    font-size: 1rem;
+  }
+
+  .profileImgContainer li {
+    flex: 0 0 calc(50% - 10px);
+  }
+
+  .profileImg {
+    left: auto;
+  }
+}
