@@ -42,21 +42,12 @@ ul.title li:nth-child(2) {
   position: relative;
   width: 355px;
   height: 199.7px;
-  position: relative;
 }
 
 .exampleImg {
   border-radius: 20px;
   margin: 0 auto;
   display: block;
-  transition: 0.2s ease-in-out;
-}
-
-.exampleImg:hover {
-  position: absolute;
-  transform: scale(2);
-  z-index: 1;
-  top: 2rem;
 }
 
 .techsContainer {
@@ -74,58 +65,4 @@ ul.title li:nth-child(2) {
 .divEx {
   width: 500px;
   height: 200px;
-}
-
-.profileImgContainer {
-  margin: 0em;
-  max-width: 90%;
-  width: 90%;
-}
-
-.divProfImage {
-  position: relative;
-  margin: 0 auto;
-  height: 300px;
-  width: 300px;
-  margin-bottom: 1.3em;
-}
-
-/* _____________________________________________________CARDS_____________________________________________________ */
-.cardSection {
-  display: flex;
-  width: 90%;
-  flex-direction: column;
-}
-
-.cardSection ul {
-  max-width: 100%;
-  width: 90%;
-  margin: 1.2em;
-}
-
-ul.title li:nth-child(2) {
-  margin-top: 1em;
-}
-
-.cardSection li {
-  margin: 0.5em 0;
-}
-.cardSection strong {
-  display: inline;
-  font-size: 1.3em;
-}
-.cardSection li p {
-  display: inline;
-  font-size: 1.2em;
-}
-
-.divImage {
-  /* position: relative; */
-  max-height: 50vw;
-  max-width: 28.3vh;
-  margin-top: 2em;
-}
-
-.techs {
-  height: 28px;
 }

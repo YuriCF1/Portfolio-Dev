@@ -92,7 +92,6 @@
   position: absolute;
   top: -25%;
   left: -25%;
-  cursor: pointer;
 }
 
 .divProfImage:hover .profileImg {
@@ -107,18 +106,10 @@
   }
   50% {
     transform: scale(1.01);
-    box-shadow: 0px 0px 5px 10px rgba(122, 221, 252, 0.5); /* Sombra maior no meio da animação */
+    box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 0.5); /* Sombra maior no meio da animação */
   }
   100% {
     transform: scale(1);
     box-shadow: 0px 0px 2px 2px rgb(15, 12, 23, 0.5); /* Sombra final */
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  .board {
-    justify-content: space-evenly;
-    flex-direction: column;
   }
 }
