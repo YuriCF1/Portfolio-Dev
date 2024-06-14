@@ -235,6 +235,26 @@
       "linkDeploy": "https://yuricf1.github.io/Proj.Study-React-6/"
     },
     {
+      "title": "To Do List - React and Typescript",
+      "description": "Project made to practice React with Typescipt, creating a To Do List",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-15/6a6e29bd7bd8f839d6268a6c13ec22ad0d858447/public/Example.png",
+      "altImg": "Example image of the To Do List project with React e Typescript",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      ],
+      "techDescriptions": [
+        "HTML5 Icon",
+        "CSS3 Icon",
+        "Typescript Icon",
+        "React Icon"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-15",
+      "linkDeploy": "https://proj-study-react-15-juigpewqq-yuricf1s-projects.vercel.app/"
+    },
+    {
       "title": "To-Do List",
       "description": "To-Do List project with countdown, made to develop a CRUD algorithm using JS and explore LocalStorage.",
       "img": "https://raw.githubusercontent.com/YuriCF1/ToDoList/main/assets/img/example.png",
