@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "title": "Isso é cinema!",
+      "description": "Projeto feito utilizando React integrando com API de TMDB para exibição e busca de filmes, mostrando também detalhes",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-16/a22166162c5a4334b8a7ccc5095ccf1f42fbb463/public/example.png",
+      "altImg": "Imagem de exemplo de Projeto Isso é cinema",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      ],
+      "techDescriptions": [
+        "Ícone HTML5",
+        "Ícone CSS3",
+        "Ícone Typescript",
+        "Ícone React"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-16",
+      "linkDeploy": "https://cinema-5gi33dyao-yuricf1s-projects.vercel.app/"
+    },
+    {
       "title": "Verificando tempo de tarefas",
       "description": "Projeto do Alura-tracker, site feito para adicionar tarefas e contar o tempo gasto realizando-as.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue-AluraTracker/1bf670a9a0eaed691564fb53f824049c76386174/src/assets/example.png",
