@@ -3,6 +3,7 @@
 import { MouseEventHandler, useContext, useEffect, useState } from "react"
 import s from "./Modal.module.css"
 import { LanguageContext } from "@/app/context/toggleConext"
+import LanguageButton from "../LanguageButton/LanguageButton"
 
 const Modal = () => {
     const [modal, setModal] = useState(false)
@@ -21,6 +22,7 @@ const Modal = () => {
 
     return (
         <div className={`${modal ? s.modalYes : s.modalNo}`}>
+            <LanguageButton />
             <div className={s.container2}>
                 <h2>{language === "portuguese" ? 'Atenção!' : "Notice!"}</h2>
                 <p>{language === "portuguese"
