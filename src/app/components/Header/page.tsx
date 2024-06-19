@@ -1,7 +1,7 @@
 'use client'
 
 import { useContext, useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./Header.module.css";
 import { LanguageContext } from "@/app/context/toggleConext";
 

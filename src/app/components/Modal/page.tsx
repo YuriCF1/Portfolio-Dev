@@ -22,7 +22,7 @@ const Modal = () => {
 
     return (
         <div className={`${modal ? s.modalYes : s.modalNo}`}>
-            <LanguageButton />
+            {/* <LanguageButton /> */}
             <div className={s.container2}>
                 <h2>{language === "portuguese" ? 'Atenção!' : "Notice!"}</h2>
                 <p>{language === "portuguese"

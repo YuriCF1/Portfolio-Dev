@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import projectsPortuguese from "../../api/projects.json"
 import projectEnglish from "../../api/ProjectsEnglish.json"
 import styles from "./Cards.module.css"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { LanguageContext } from "@/app/context/toggleConext";
 import IProject from "../../Interfaces/IProjects"
 

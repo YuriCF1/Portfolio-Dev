@@ -1,8 +1,7 @@
 'use client'
 
-import Image from "next/image"
-
-import styles from "./LanguageButton.module.css"
+import Image from "next/image";
+import styles from "./LanguageButton.module.css";
 import { useContext, useEffect, useState } from "react";
 import { LanguageContext } from "@/app/context/toggleConext";
 
@@ -12,16 +11,15 @@ import PortugueseImage from "/public/Portuguese.jpg";
 export function LanguageButton() {
     const [isToggled, setIsToggled] = useState(true);
 
-    const { language, setLanguage } = useContext(LanguageContext)
+    const { language, setLanguage } = useContext(LanguageContext);
 
     useEffect(() => {
-        setLanguage(isToggled ? "portuguese" : "english")
-    }, [isToggled])
+        setLanguage(isToggled ? "portuguese" : "english");
+    }, [isToggled, setLanguage]);
 
     const handleToggle = () => {
         setIsToggled(!isToggled);
     };
-
 
     return (
         <>
@@ -32,27 +30,30 @@ export function LanguageButton() {
                 >
                     <div className={styles.toggleContent}>
                         <div className={`${styles.toggleBall} ${isToggled ? styles.toggled : ""}`}></div>
-                        {isToggled ?
-                            <Image
-                                src={PortugueseImage}
-                                alt="Portuguese"
-                                width={30}
-                                height={21.0}
-                                className={`${styles.toggleImage} ${styles.portFlag}`}
-                            /> :
-                            <Image
-                                src={EnglishImage}
-                                alt="English"
-                                width={30}
-                                height={21.0}
-                                className={`${styles.toggleImage} ${styles.engFlag}`}
-                            />
-                        }
+                        {isToggled ? (
+                            <div className={`${styles.toggleImage} ${styles.portFlag}`}>
+                                <Image
+                                    src={PortugueseImage}
+                                    alt="Portuguese"
+                                    // width={35}
+                                    // height={24.5}
+                                />
+                            </div>
+                        ) : (
+                            <div className={`${styles.toggleImage} ${styles.engFlag}`}>
+                                <Image
+                                    src={EnglishImage}
+                                    alt="English"
+                                    // width={35}
+                                    // height={24.5}
+                                />
+                            </div>
+                        )}
                     </div>
                 </button>
             </div>
         </>
-    )
+    );
 }
 
-export default LanguageButton
+export default LanguageButton;

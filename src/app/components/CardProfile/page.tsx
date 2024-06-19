@@ -1,7 +1,7 @@
 'use client'
 
 import profilePic from "../../../../public/img/Profile.jpg"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import styles from "./CardProfile.module.css"
 import { LanguageContext } from "@/app/context/toggleConext"
 import { useContext } from "react"
