@@ -1,8 +1,8 @@
 .arrow {
+  position: fixed;
   background-color: rgba(201, 196, 209, 0.238);
   padding: 5px;
   border-radius: 33%;
-  position: fixed;
   bottom: 5%;
   right: 20px;
 }
