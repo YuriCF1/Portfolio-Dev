@@ -8,21 +8,19 @@ import bothLanguageCourse from "../../api/courses-eng-titles.json"
 
 interface Course {
     title: string;
-    eng_title: string
+    eng_title: string;
 }
-
 
 const Courses = () => {
 
     const { language } = useContext(LanguageContext)
 
-    const [isItPortgueuse, setIsItPortgueuse] = useState(true);
+    const [isItPortuguese, setIsItPortuguese] = useState(true);
 
     useEffect(() => {
         const coursesToShow = language === "portuguese";
-        setIsItPortgueuse(coursesToShow);
+        setIsItPortuguese(coursesToShow);
     }, [language]);
-
 
     return (
         <>
@@ -33,9 +31,9 @@ const Courses = () => {
                         <ul>
                             {
                                 bothLanguageCourse.courses.map((course: Course, index: number) => (
-                                    <>{isItPortgueuse ? <li key={index}>{course.title}</li> : <li key={index}>{course.eng_title}</li>}
-
-                                    </>
+                                    <li key={index}>
+                                        {isItPortuguese ? course.title : course.eng_title}
+                                    </li>
                                 ))
                             }
                         </ul>
