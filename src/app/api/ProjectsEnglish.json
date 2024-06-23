@@ -1,6 +1,40 @@
 {
   "projects": [
     {
+      "title": "Social Media",
+      "description": "Social network project, with account registration, login, posts, followers, authentication using JWT, Feed, and more.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Next_MySql/fee02d0ea99a66cdd4985ade710f48968bc367e2/client/social-media/public/example.png",
+      "altImg": "Example image of Social Media",
+      "techs": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      ],
+      "techDescriptions": [
+        "HTML5 Icon",
+        "CSS3 Icon",
+        "Tailwind Icon",
+        "Typescript Icon",
+        "React Icon",
+        "Axios Icon",
+        "NodeJs Icon",
+        "Express Icon",
+        "MySQL Icon",
+        "Postman Icon",
+        "AWS Icon"
+      ],
+      "linkGH": "https://github.com/YuriCF1/Next_MySql?tab=readme-ov-file",
+      "linkDeploy": "https://next-my-sql-sigma.vercel.app/login"
+    },
+    {
       "title": "Verifying Task Time",
       "description": "Alura-tracker project, a website made to add tasks and track the time spent on them.",
       "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue-AluraTracker/1bf670a9a0eaed691564fb53f824049c76386174/src/assets/example.png",
@@ -177,7 +211,9 @@
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
       ],
@@ -186,7 +222,9 @@
         "CSS3 Icon",
         "JavaScript Icon",
         "React Icon",
+        "Redux Icon",
         "NodeJs Icon",
+        "Express Icon",
         "MongoDB Icon"
       ],
       "linkGH": "https://github.com/YuriCF1/Proj.Study-React-12",
@@ -202,6 +240,8 @@
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
       ],
       "techDescriptions": [
@@ -209,6 +249,8 @@
         "CSS3 Icon",
         "JavaScript Icon",
         "React Icon",
+        "Node Icon",
+        "Express Icon",
         "Firebase Icon"
       ],
       "linkGH": "https://github.com/YuriCF1/Proj.Study-React-10/tree/main",
