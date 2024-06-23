@@ -3,7 +3,7 @@
   position: fixed;
   top: 1%;
   right: 0%;
-  z-index: 100; /* Adicione um z-index alto aqui */
+  z-index: 1000; /* Adicione um z-index alto aqui */
 }
 
 @media screen and (max-width: 500px) {
