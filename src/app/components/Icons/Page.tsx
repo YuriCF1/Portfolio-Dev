@@ -90,6 +90,10 @@ const Icons = () => {
                     <span>MySQL</span>
                 </div>
                 <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" width="40" height="40" />
+                    <span>Google Cloud</span>
+                </div>
+                <div>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="40" height="40" />
                     <span>AWS</span>
                 </div>
