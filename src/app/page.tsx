@@ -10,6 +10,7 @@ import { LanguageContextProvider } from "./context/toggleConext";
 
 import styles from "./page.module.css"
 import Modal from "./components/Modal/page";
+import CookieConsent from "./components/CookiesConsent/page";
 
 export default async function Home() {
   return (
@@ -26,6 +27,7 @@ export default async function Home() {
           <ButtonTop />
           <LanguageButton />
         </div>
+        <CookieConsent />
       </main>
     </LanguageContextProvider>
   )

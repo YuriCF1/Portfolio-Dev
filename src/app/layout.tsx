@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { AOSInit } from './components/AOS/aosAnimation'
+import CookieConsent from './components/CookiesConsent/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <AOSInit />
       <head>
-        {/* Google Analytics Manager */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY93XBCPZY"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -27,7 +27,10 @@ export default function RootLayout({
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-TY93XBCPZY');
+                gtag('config', 'G-TY93XBCPZY', { 'anonymize_ip': true });
+                gtag('consent', 'default', {
+                  'analytics_storage': 'denied'
+                });
               `,
           }}
         />
@@ -38,7 +41,9 @@ export default function RootLayout({
         <link rel="icon" type="imagem/jpeg" href="/img/logoPequeno.png" />
         <title>Yuri Cruz - Portfolio</title>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   )
 }
