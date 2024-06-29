@@ -15,11 +15,11 @@ export function Header() {
         <h1>
           <Image
             src="/assets/img/logo5.png"
-            title="Logo da escritório"
+            title="Logo do escritório"
             alt="Logo do escritório"
             className={styles.cabecalho_logo}
-            width={215}
-            height={93}
+            width={250}
+            height={108.14}
             priority={true}
           />
         </h1>
@@ -27,7 +27,7 @@ export function Header() {
           <ul className={styles.cabecalho_links}>
             <li className={styles.listItem}>
               <a className={styles.cabecalho_itens} href="#home">
-                Home
+              {language && language === "portuguese" ? "Início" : "Home"}
               </a>
             </li>
             <li className={styles.listItem}>

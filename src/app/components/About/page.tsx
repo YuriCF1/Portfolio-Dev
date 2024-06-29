@@ -1,13 +1,12 @@
 'use client'
 
-import { useContext, useEffect, useState } from "react"
+import { useContext } from "react"
 import stylesPortuguese from "./About.module.css"
 import stylesEng from "./AboutEng.module.css"
 import { LanguageContext } from "@/app/context/toggleConext"
 
 export function About() {
-    const { language, setLanguage } = useContext(LanguageContext)
-
+    const { language } = useContext(LanguageContext)
 
     return (<>
         <section>
