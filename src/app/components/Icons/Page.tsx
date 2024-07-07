@@ -110,6 +110,10 @@ const Icons = () => {
                     <span>Postman</span>
                 </div>
                 <div>
+                    <img alt="mongo DB" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="40" height="40" />
+                    <span>Docker</span>
+                </div>
+                <div>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" />
                     <span>Git</span>
                 </div>
