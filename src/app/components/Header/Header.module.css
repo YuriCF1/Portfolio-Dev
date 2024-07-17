@@ -54,6 +54,7 @@
   }
 
   .cabecalho_links {
+    font-size: 1.25rem;
     flex-direction: row;
   }
 
