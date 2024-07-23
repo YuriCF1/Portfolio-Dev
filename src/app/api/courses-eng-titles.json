@@ -1,6 +1,18 @@
 {
   "courses": [
     {
+      "title": "Gemini e Node.js: integrando sua aplicação com a API do Google",
+      "eng_title": "Gemini and Node.js: integrating your application with the Google API"
+    },
+    {
+      "title": "Node.js: criando uma API Rest com Express e MongoDB",
+      "eng_title": "Node.js: creating a Rest API with Express and MongoDB"
+    },
+    {
+      "title": "JavaScript com Node.js: criando sua primeira biblioteca",
+      "eng_title": "JavaScript with Node.js: Creating your first library"
+    },
+    {
       "title": "MySQL: Do básico ao avançado - Desenvolvelvendo banco de dados",
       "eng_title": "MySQL: From basic to advanced  - Developing a Database"
     },
