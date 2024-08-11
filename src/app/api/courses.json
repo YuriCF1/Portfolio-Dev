@@ -1,5 +1,6 @@
 {
   "projects": [
+    { "title": "Docker: criando e gerenciando containers"},
     { "title": "Vue 3: entendendo componentes, diretivas e reatividade no framework"},
     { "title": "Angular: ciclo de vida"},
     { "title": "React: criando um Design System com TailwindCSS"},

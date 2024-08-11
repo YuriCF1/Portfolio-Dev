@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Docker: criando e gerenciando containers",
+      "eng_title": "Docker: creating and managing containers"
+    },
+    {
       "title": "Gemini e Node.js: integrando sua aplicação com a API do Google",
       "eng_title": "Gemini and Node.js: integrating your application with the Google API"
     },
