@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
+  env: { SECRET_HMAC: process.env.SECRET_HMAC },
   images: {
     remotePatterns: [
       {
