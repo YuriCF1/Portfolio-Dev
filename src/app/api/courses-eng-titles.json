@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Nodejs: Autenticação, Passport e OAuth 2.0",
+      "eng_title": "Nodejs: Authentication, Passport and OAuth 2.0"
+    },
+    {
       "title": "Docker: criando e gerenciando containers",
       "eng_title": "Docker: creating and managing containers"
     },
