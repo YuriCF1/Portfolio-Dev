@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import Header from "../components/Header/page"
+import Header from "../components/Header/Header"
 import Link from "next/link"
 
 import styles from "./ThankYou.module.css"

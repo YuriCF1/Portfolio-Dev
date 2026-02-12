@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from "./not-found.module.css"
-import Header from './components/Header/page'
+import Header from './components/Header/Header'
  
 export default function NotFound() {
     return (

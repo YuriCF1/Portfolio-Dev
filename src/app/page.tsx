@@ -2,14 +2,14 @@ import { About } from "./components/About/About";
 import ButtonTop from "./components/ButtonTop/ButtonTop";
 import LanguageButton from "./components/LanguageButton/LanguageButton";
 import Email from "./components/Email/Email";
-import Footer from "./components/Footer/page";
-import Header from "./components/Header/page";
-import Projects from "./components/Projects/pages";
-import Courses from "./components/courses/page";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Projects from "./components/Projects/Projects";
+import Courses from "./components/courses/Courses";
 import { LanguageContextProvider } from "./context/toggleConext";
 
-import styles from "./page.module.css"
-import Modal from "./components/Modal/page";
+import styles from "./thankyou.module.css"
+import Modal from "./components/Modal/Modal";
 import CookieConsent from "./components/CookiesConsent/CookiesConsent";
 
 export default async function Home() {

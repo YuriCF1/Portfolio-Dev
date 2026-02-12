@@ -3,9 +3,9 @@
 import { useContext } from "react";
 import styles from "./Projects.module.css"
 import { LanguageContext } from "@/app/context/toggleConext";
-import Icons from "../Icons/Page";
-import Cards from "../CardsProjects/page";
-import CardProfile from "../CardProfile/page";
+import Icons from "../Icons/Icons";
+import Cards from "../CardsProjects/CarProjects";
+import CardProfile from "../CardProfile/CardProfile";
 export default function Projects() {
 
   const { language } = useContext(LanguageContext)
