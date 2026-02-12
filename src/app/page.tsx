@@ -1,4 +1,4 @@
-import { About } from "./components/About/page";
+import { About } from "./components/About/About";
 import ButtonTop from "./components/ButtonTop/ButtonTop";
 import LanguageButton from "./components/LanguageButton/LanguageButton";
 import Email from "./components/Email/page";
