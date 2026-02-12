@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { AOSInit } from './components/AOS/aosAnimation'
-import CookieConsent from './components/CookiesConsent/page'
+import CookieConsent from './components/CookiesConsent/CookiesConsent'
 
 const inter = Inter({ subsets: ['latin'] })
 
