@@ -1,6 +1,10 @@
 {
   "courses": [
     {
+      "title": "Next.js: Conheça o framework React",
+      "eng_title": "Next.js: Learn about the React framework"
+    },
+    {
       "title": "Nodejs: Autenticação, Passport e OAuth 2.0",
       "eng_title": "Nodejs: Authentication, Passport and OAuth 2.0"
     },

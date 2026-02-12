@@ -24,6 +24,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'https://portfolio-v2-five-tawny.vercel.app/',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
